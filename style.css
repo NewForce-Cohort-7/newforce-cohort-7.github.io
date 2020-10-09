@@ -1,0 +1,128 @@
+  /* * {
+      border: 1px solid black;
+  } */
+
+	@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+ /* ------ Spacing and Layout Helper Classes ----- */
+
+ /* Centers the content in an element vertically and horizontally */
+ .center-wrapper {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ /* Sizes element to take up the full width of the screen */
+ .full-width {
+     width: 100vw;
+     height: 100vh;
+ }
+
+
+
+ /* --------- Header Styles -------- */
+ .header  > section {
+     width: 100vw;
+     height: 50vh;
+    
+ }
+
+
+/* Card Styles */
+
+
+
+/* $facebook:		   #43609c;
+$twitter:        #6dabda;
+$linkedin:       #2b77b1;
+$google-plus:    #c95644;
+$github:         #4078c0;
+$stack-overflow: #c98b3b;
+$white:          #FFFFFF;
+$light-gray:	   #AFAFAF;
+$gray:           #565656; */
+
+body {
+  /* background-color: #D1A163;
+	background-image: url("http://www.transparenttextures.com/patterns/wood-pattern.png"); */
+	background-color: lightgray;
+  font-family: 'Roboto Condensed', sans-serif;    
+  font-weight: 300;    
+  font-size: 16px;
+  width: 100%;
+}
+
+
+
+.content-panel {
+  background-color: #FFFFFF;
+  background-image: url("http://www.transparenttextures.com/patterns/paper.png");
+  height: 30vh;
+  width: 60vh;
+  margin: 0 auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);    
+  border-radius: 1px;
+}
+
+
+	.author-header {
+		color: #AFAFAF;
+		margin-top: 0px;
+		padding-top: 10px;
+		font-size: 50px;
+    text-align: center;
+    mix-blend-mode: multiply;
+	}
+	
+	.main-text {    
+		text-align: center;
+		margin-top: 15px;	
+    mix-blend-mode: multiply;
+	}	
+
+a, a:active {
+  color: #AFAFAF;
+}
+
+a:hover {
+  color: #AFAFAF;
+  text-decoration: none;
+}
+	
+
+.social-icons i {
+		text-align: center;
+		font-size: 1.5em;	  
+	}
+
+
+
+.fa {
+    color: #AFAFAF;
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		transition: 0.3s;
+    mix-blend-mode: multiply;
+    cursor: pointer;
+	}
+
+
+.content-panel {
+	display: flex;
+	justify-content: space-between;
+}
+.content-panel > img {
+	height: 100%;
+}
+
+.card-back {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
