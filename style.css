@@ -82,16 +82,14 @@
 	 border: none;
 	 width: 100%;
 	 background-color: inherit;
-	 border-top: 1px solid lightblue;
+	 border-top: 1.5px solid #ffc859
 	 
  }
 
- .student-modal {
-	 width: 100vw;
- }
+ 
 
  .student-card button:hover {
-	 background-color: lightblue;
+	 background-color: #ffc859;
  }
  .student-info{
 	 line-height: 2.5em;
