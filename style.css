@@ -42,7 +42,7 @@
 
 
 
-
+/* Header styles */
 
  header {
 	 background-image: url('images/NewForce-GraphicDesign-Pattern-06.png');
@@ -62,28 +62,32 @@
 
  .header-content h1 {
 	 color: white;
+	 font-size: 4em;
  }
 
  .header-content img {
 	 display: block;
+	 width: 50vw;
  }
 
 
  /* Card styles */
  .student-card {
-	 height: 55vh;
+	 /* height: 55vh; */
  }
 
  .student-card button {
-	 position: absolute;
+	 /* position: absolute;
 	 bottom: 0;
+	 /* height: 10%; */
 	 left: 0;
-	 height: 4em;
-	 border: none;
 	 width: 100%;
+	 border: none;
 	 background-color: inherit;
-	 border-top: 1.5px solid #ffc859
-	 
+	 border: 1.5px solid #ffc859;
+	 border-radius: 0.3em;
+	 font-size: 1.1em;	
+	 margin-top: 1em;
  }
 
  
