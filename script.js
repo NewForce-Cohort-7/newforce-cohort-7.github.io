@@ -62,6 +62,7 @@ const students = [
     githubURL: "https://github.com/Shaverp3",
     linkedInURL: "http://www.linkedin.com/in/pls304",
     frontEndCapstoneURL: "https://youtu.be/r7dfDFJky-I",
+    serverSideCapstoneURL: "https://youtu.be/e3U11FEL5Tc",
     interests: "",
     autobiography: "",
     commonPhrases: "",
