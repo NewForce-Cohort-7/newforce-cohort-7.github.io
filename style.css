@@ -12,17 +12,18 @@
  p {
 	 font-size: 1.2em;
 	 line-height: 2em;
-	 
+
  }
 
  h1, h2, h3, h4, h5, h6{
 	font-family: 'Quicksand', sans-serif;
 	margin: 1em;
+
  }
  .center-wrapper {
      display: flex;
      align-items: center;
-		 justify-content: center;
+	justify-content: center;
  }
 
  .center-vertical {
@@ -39,25 +40,51 @@
      height: 100vh;
  }
 
+ .highlight {
+	 background-color:  #ffc859;
+ }
+
+ .section-title {
+	 width: 80vw;
+	 text-align: center;
+	 padding: 0.2em;
+	 margin: 2em auto;
+ }
 
 
 
 /* Header styles */
 
- header {
-	 background-image: url('images/NewForce-GraphicDesign-Pattern-06.png');
-	 background-color:#433e47;
-	 background-attachment: fixed;
-	 background-position: center bottom;
-	 background-repeat: no-repeat;
-	 background-size: contain;
- }
+@media only screen and (min-width: 992px) {
+	header{
+		background-size: 30em 10em;
+		background-repeat: repeat-x;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+	header {
+		background-size: contain;
+		background-repeat: no-repeat;
+	 }
+}
+
+
+header {
+	background-image: url('images/NewForce-GraphicDesign-Pattern-06.png');
+	background-color:#433e47;
+	background-attachment: fixed;
+	background-position: center bottom;
+
+}
+
+
+
 
  .header-content {
 	 margin: auto;
-	 padding-top: 20vh;
-	 padding: 20vh 5vh 5vh 5vh;
-   
+	 padding: 20vh 5vh;
  }
 
  .header-content h1 {
@@ -67,36 +94,44 @@
 
  .header-content img {
 	 display: block;
-	 width: 50vw;
+	 width: 40vw;
  }
 
 
  /* Card styles */
  .student-card {
-	 /* height: 55vh; */
+	 border-radius: 1em;
+ }
+
+ .student-card:hover{
+	transform: scale(1.02);
+	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
  }
 
  .student-card button {
-	 /* position: absolute;
-	 bottom: 0;
-	 /* height: 10%; */
-	 left: 0;
 	 width: 100%;
 	 border: none;
 	 background-color: inherit;
-	 border: 1.5px solid #ffc859;
+	 border: 2px solid #ffc859;
 	 border-radius: 0.3em;
-	 font-size: 1.1em;	
+	 font-size: 1.1em;
 	 margin-top: 1em;
  }
 
- 
+
 
  .student-card button:hover {
 	 background-color: #ffc859;
+	 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
  }
  .student-info{
-	 line-height: 2.5em;
+	 line-height: 1em;
+ }
+
+ .student-info p {
+	 text-align: left;
+	 margin-left: 2em;
+	 font-size: 1em;
  }
 
  .student-info .video-heading {
@@ -105,14 +140,35 @@
 	 margin-top: 1em;
  }
 
+ .student-modal h2 {
+	padding: 0.5em;
+	background-color: #ffc859;
+ }
+
  /* Social icons styles */
+
+ .student-modal-footer {
+	 padding: 2em 0;
+ }
+
+ .student-modal-footer h4 {
+	 padding: 0.5em;
+	 background-color: #ffc859;
+ }
 .social-icons img{
-	 height: 2em;
+	 height: 2.5em;
 	 margin: 1em;
  }
 
 .social-icons img:hover{
-	 opacity: 0.5
+	opacity: 0.5;
+	transform: scale(1.02);
+	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+ }
+
+ .social-icons .resume-btn {
+	 font-size: 1.5em;
  }
 
  /* Tech stack */
@@ -126,6 +182,10 @@
 	height: 4em;
 	display: block;
 	margin: auto;
+}
+
+.tech-stack-logo img:hover {
+	transform: scale(1.06);
 }
 
 .curriculum {
