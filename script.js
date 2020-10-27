@@ -77,10 +77,10 @@ const students = [
     githubURL: "https://github.com/apreece13",
     linkedInURL: "http://www.linkedin.com/in/austin-preece",
     serverSideCapstoneURL: "https://youtu.be/jcUwGVWmqgM",
-    interests: "",
-    autobiography: "",
-    commonPhrases: "",
-    lookingFor: ""
+    interests: "I'm interested in mobile app development, accessibility, iOS development, and other areas when it comes to software. Outside of software I enjoy yoga, cooking, various sports, animation, piano, and spending time with friends and family.",
+    autobiography: "The Happiest Man Alive",
+    commonPhrases: "Well, lets see if this works!",
+    lookingFor: "An opportunity to grow a develop my skills while contributing to solving the immediate problems at hand."
   },
   {
     firstName: "Ashon",
@@ -91,10 +91,10 @@ const students = [
     githubURL: "https://github.com/AWoodbury01",
     linkedInURL: "https://www.linkedin.com/in/ashon-woodbury-b77896104/",
     serverSideCapstoneURL: "https://youtu.be/dXnvpsHbf1Q",
-    interests: "",
-    autobiography: "",
-    commonPhrases: "",
-    lookingFor: ""
+    interests: "Design/CSS, mobile technology, calligraphy, video games, my cat Zula",
+    autobiography: "The Voice in the Ashes: A Tale of the Mysterious and Peculiar Mind of One, Ashon Woodbury: Book 1, Part 3, The Musical: The Movie",
+    commonPhrases: "Does this work? No, okay how about this?",
+    lookingFor: "I am looking for a company that will allow me to grow with my growing career. One with a team of resources that can share their knowledge, so I can be the best I can be."
   },
   {
     firstName: "Barry",
@@ -259,6 +259,33 @@ const buildCapstoneVideo = (videoURL) => {
     return `<iframe width="360" height="202" src="${embedURL}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
   }
 };
+
+buildStudentInfoSection = (studentObject) => {
+  let studentInfoHTMLString = ""
+  if(studentObject.interests != ""){
+    studentInfoHTMLString += `<h4>I'm interested in:</h4>
+    <p>${studentObject.interests}</p>`
+  }
+
+  if(studentObject.autobiography != ""){
+    studentInfoHTMLString +=  `<h4>The title of my future autobiography will be:</h4>
+    <p>${studentObject.autobiography}</p>`
+
+  }
+
+  if(studentObject.commonPhrases != ""){
+    studentInfoHTMLString +=  `<h4>When coding, I most often find myself saying:</h4>
+    <p>${studentObject.commonPhrases}</p>`
+  }
+
+  if(studentObject.lookingFor != ""){
+    studentInfoHTMLString +=  `<h4>Things I'm looking for in a job:</h4>
+    <p>${studentObject.lookingFor}</p>`
+  }
+
+  return studentInfoHTMLString;
+
+}
 const buildStudentComponent = (studentObject, i) => {
   console.log(studentObject.frontEndCapstoneURL);
   return `
@@ -289,14 +316,7 @@ const buildStudentComponent = (studentObject, i) => {
         </button>
       </div>
       <div class="modal-body container-fluid student-info">
-      <h4>I'm interested in:</h4>
-      <p>${studentObject.interests}</p>
-      <h4>The title of my future autobiography will be:</h4>
-      <p>${studentObject.autobiography}</p>
-      <h4>When coding, I most often find myself saying:</h4>
-      <p>${studentObject.commonPhrases}</p>
-      <h4>Things I'm looking for in a job:</h4>
-      <p>${studentObject.lookingFor}</p>
+      ${buildStudentInfoSection(studentObject)}
       <h4 class="video-heading">Front End Capstone</h4>
       ${buildCapstoneVideo(studentObject.frontEndCapstoneURL)}
       <h4 class="video-heading">Server Side Capstone</h4>
@@ -337,7 +357,7 @@ buildTechStackLogo = (techStackObject) => {
 };
 
 const studentContainer = document.querySelector("#student-container");
-students.sort((a, b) => a.lastName.localeCompare(b.lastName));
+students.sort((a, b) => a.firstName.localeCompare(b.firstName));
 for (let i = 0; i < students.length; i++) {
   let currentStudent = students[i];
   let studentHTML = buildStudentComponent(currentStudent, i);
