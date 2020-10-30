@@ -1,3 +1,6 @@
+
+
+
 const students = [
   {
     firstName: "Lindsey",
@@ -6,7 +9,7 @@ const students = [
       "https://drive.google.com/file/d/1hH9SQBsA51unndvQjhWNm-Bl7_4T-jmZ/view?usp=sharing",
     githubURL: "https://github.com/LindseyKCrittendon",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "www.linkedin.com/in/lindsey-crittendon",
+    linkedInURL: "https://www.linkedin.com/in/lindsey-crittendon/",
     serverSideCapstoneURL: "https://youtu.be/3vZCYdE74Uk",
     interests: "I loved working with SQL!  There is something that really gets me when it comes to putting data in the database but pulling back and manipulating it to display what you want!  I've started reading up on Azure and machine learning.  I love how you can train Azure to do things such as perform facial recognition.  I've been a beekeeper for years, because, like coding, you learn something new all the time.  #saveTheBees",
     autobiography: "The Hitchhiker's Guide to Imposter Syndrome",
@@ -17,22 +20,22 @@ const students = [
     firstName: "Stephen",
     lastName: "Avila",
     resumeURL:
-      "https://drive.google.com/file/d/1iNf3hLalEBsB_MZqsskxWhzLfhhJppvb/view?usp=sharing",
+      "https://drive.google.com/file/d/1auHNgrIHJqt1mSFHLczYrS28p8GqHLId/view?usp=sharing",
     photoURL: "images/headshots/Stephen.jpg",
     githubURL: "https://github.com/StephenAvila2020",
     linkedInURL: "https://www.linkedin.com/in/stephen-avila1/",
-    interests: "",
-    autobiography: "",
-    commonPhrases: "",
-    lookingFor: ""
+    interests: "I am vastly interested in about everything technical as far as software/computers go. From building a program in a new language to building a PC to game on, I find both building processes to be exciting. I've always been a fan of science fiction and the future of technology so I love being in the field and learning about all the different aspects that I can.",
+    autobiography: "It Was All a Dream",
+    commonPhrases: "I usually find myself playing music and singing along horribly off key.",
+    lookingFor: "I'm looking for a career that I can be passionate about. I feel like for too long I've neglected that part of my career goals and it definitely has an effect on your overall wellbeing. If you don't love or enjoy what you do, you'll find yourself asking why you even do it. "
   },
   {
     firstName: "Swathi",
     lastName: "Mukkamala",
-    interests: "I'm interested in learning more programming languages with an emphasis in front-end development. I'm also interested in UI/UX Design; I'm passionate about learning and understanding users' needs and implementing them in a way that is relevant to them. On a more lighthearted note, I love watching competitive cooking and baking shows, going on spontaneous adventures around West Virginia, and having a great time making really bad DIY projects.",
+    interests: "I'm interested in learning more programming languages and strengthening my experience in languages I've already been exposed to. Within software development, I'm also interested in UI/UX Research and Design; I'm passionate about learning and understanding users' needs and being able to implement solutions in a way that is relevant to them. On a more lighthearted note, I love watching competitive cooking and baking shows, going on spontaneous adventures around West Virginia, and having a great time making really bad DIY projects.",
     autobiography: "Swath Gone Wild",
     commonPhrases: "Woah, there's a shortcut for that?!",
-    lookingFor: "I want to be able to work for a company that I'm passionate about. I want to be able to work with a great team that prioritizes learning and investing in each others' skill sets.",
+    lookingFor: "I want to be able to work with a great team that prioritizes learning and investing in each others' skill sets at a company that I am passionate about.",
     resumeURL: "https://drive.google.com/file/d/1d3tU8oW40AYmkt4JR1V6miF3hrx4FFj6/view?usp=sharing",
     photoURL: "images/headshots/Swathi.jpg",
     linkedInURL: "https://www.linkedin.com/in/swathi-mukkamala/",
@@ -51,22 +54,22 @@ const students = [
     interests: "I love books, true crime, helping other people find bugs in their code, and foggy mornings.",
     autobiography: "Sarah \"why you got to be like that\" Tredway-Brooks: No ragrets",
     commonPhrases: "\"Please work\"",
-    lookingFor: "To be apart of a great team. To be able to go to Disney World."
+    lookingFor: "To be a part of a great team. To be able to go to Disney World."
   },
   {
     firstName: "Pat",
     lastName: "Shaver",
     resumeURL:
-      "https://drive.google.com/file/d/1n_b9NgCXgkj3qc2C6n3s1VBaMERUSbHO/view?usp=sharing",
+      "https://drive.google.com/file/d/1H3TpLjoAAcKjryTtbOQgjmQNTvnMj5Du/view?usp=sharing",
     photoURL: "images/headshots/Pat.jpg",
     githubURL: "https://github.com/Shaverp3",
     linkedInURL: "http://www.linkedin.com/in/pls304",
     frontEndCapstoneURL: "https://youtu.be/r7dfDFJky-I",
     serverSideCapstoneURL: "https://youtu.be/e3U11FEL5Tc",
-    interests: "",
-    autobiography: "",
-    commonPhrases: "",
-    lookingFor: ""
+    interests: "SQL, problem solving, application development support, DevOps, learning new programming skills and languages, photography, anything outdoors, dogs, running, music",
+    autobiography: "A Strong Finish",
+    commonPhrases: "YAY!!",
+    lookingFor: "A good team and cultural fit. Opportunities for learning and growing."
   },
   {
     firstName: "Austin",
@@ -79,19 +82,19 @@ const students = [
     serverSideCapstoneURL: "https://youtu.be/jcUwGVWmqgM",
     interests: "I'm interested in mobile app development, accessibility, iOS development, and other areas when it comes to software. Outside of software I enjoy yoga, cooking, various sports, animation, piano, and spending time with friends and family.",
     autobiography: "The Happiest Man Alive",
-    commonPhrases: "Well, lets see if this works!",
+    commonPhrases: "Well, let's see if this works!",
     lookingFor: "An opportunity to grow a develop my skills while contributing to solving the immediate problems at hand."
   },
   {
     firstName: "Ashon",
     lastName: "Woodbury",
     resumeURL:
-      "https://drive.google.com/file/d/1QB_NQECOw2sNGnELxbwe4YoNTJ5Y21so/view?usp=sharing",
+      "https://drive.google.com/file/d/1NYVlMIhdAVtVsQ415lTsCMGS1DKL7xpk/view?usp=sharing",
     photoURL: "images/headshots/Ashon.jpg",
     githubURL: "https://github.com/AWoodbury01",
     linkedInURL: "https://www.linkedin.com/in/ashon-woodbury-b77896104/",
     serverSideCapstoneURL: "https://youtu.be/dXnvpsHbf1Q",
-    interests: "Design/CSS, mobile technology, calligraphy, video games, my cat Zula",
+    interests: "I am passionate about UI/UX design and front-end development. My projects at NewForce have had a large focus on ease of use, aesthetics, and the user experience. Outside of coding, I am interested in mobile technology, calligraphy, video games, and my cat Zula.",
     autobiography: "The Voice in the Ashes: A Tale of the Mysterious and Peculiar Mind of One, Ashon Woodbury: Book 1, Part 3, The Musical: The Movie",
     commonPhrases: "Does this work? No, okay how about this?",
     lookingFor: "I am looking for a company that will allow me to grow with my growing career. One with a team of resources that can share their knowledge, so I can be the best I can be."
@@ -117,14 +120,14 @@ const students = [
     resumeURL:
       "https://drive.google.com/file/d/1jK2zC7QGbyb2oj18jbD3r3l_1gAiKNzh/view?usp=sharing",
     photoURL: "images/headshots/Derek-Mayse.jpg",
-    githubURL: "https://github.com/HavokMal3k",
+    githubURL: "https://github.com/DerekMayse",
     linkedInURL: "http://www.linkedin.com/in/derek-mayse-4958a61b0",
     frontEndCapstoneURL: "https://youtu.be/PAwUFowvkik",
     serverSideCapstoneURL: "https://youtu.be/4XkcDwQRy1Q",
-    interests: "",
-    autobiography: "",
-    commonPhrases: "",
-    lookingFor: ""
+    interests: "Furthering my skills by learning new languages",
+    autobiography: "\"Well That Happend\" by Derek Mayse",
+    commonPhrases: "If I'm in the zone you'll probably hear me talking myself through whatever it is I'm doing.",
+    lookingFor: "I'm looking for a good team and a company that will help me grow as a developer."
   },
   {
     firstName: "Derek",
@@ -148,21 +151,21 @@ const students = [
     githubURL: "https://github.com/dconroy91?tab=repositories",
     linkedInURL: "https://www.linkedin.com/in/devconroy/",
     serverSideCapstoneURL: "https://youtu.be/DoQpNBvwK4U",
-    interests: "",
-    autobiography: "",
-    commonPhrases: "",
-    lookingFor: ""
+    interests: "Becoming an Astronaut",
+    autobiography: "Why Devin Never Became An Astronaut",
+    commonPhrases: "This looks familiar",
+    lookingFor: "I want to make a difference in a team environment "
   },
   {
     firstName: "Dylan",
     lastName: "Bishop",
     resumeURL:
-      "https://drive.google.com/file/d/1nAxP_At0VdkgFcXQIydlkoMeTyHLShxu/view?usp=sharing",
+      "https://drive.google.com/file/d/1hCYbJ7Tyrm7WsTiRrqbTF5otwEpqb88X/view?usp=sharing",
     photoURL: "images/headshots/Dylan.jpg",
     linkedInURL: "https://www.linkedin.com/in/dylan-bishop/",
     githubURL: "https://github.com/dylbyl",
     serverSideCapstoneURL: "https://youtu.be/tF0Va9HlIc4",
-    interests: "Game development! User experience!",
+    interests: "I’d love to dive into front-end development, user interfaces, and database maintenance! Outside of coding, I love finding new music, reading books, and unwinding with video games.",
     autobiography: "A Series of Slightly Fortunate Events",
     commonPhrases: "SLOW DOWN AND BREATHE",
     lookingFor: "A fun team with a welcoming atmosphere, a chance to learn and apply many new things!"
@@ -178,7 +181,8 @@ const students = [
     interests: "",
     autobiography: "",
     commonPhrases: "",
-    lookingFor: ""
+    lookingFor: "",
+    serverSideCapstoneURL: "https://youtu.be/DEIljPrXuFk"
   },
 ];
 
