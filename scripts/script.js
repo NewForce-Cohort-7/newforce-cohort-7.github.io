@@ -42,6 +42,7 @@ const students = [
     githubURL: "https://github.com/swathi862",
     frontEndCapstoneURL: "https://youtu.be/ltoAlkCN4YI",
     serverSideCapstoneURL: "https://youtu.be/WFwzTMeswzg",
+    hired: true
   },
   {
     firstName: "Sarah",
@@ -295,6 +296,7 @@ const buildStudentComponent = (studentObject, i) => {
   return `
   <div class="col-md-3">
     <div class="card mt-4 student-card">
+      ${studentObject.hired ? "  <div class=\"ribbon ribbon-top-left\"><span>Hired</span></div>" : ""}
       <img src="${
         studentObject.photoURL
       }" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
