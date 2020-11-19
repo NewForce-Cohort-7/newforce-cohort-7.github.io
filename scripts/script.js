@@ -5,6 +5,7 @@ const students = [
   {
     firstName: "Lindsey",
     lastName: "Crittendon",
+    hired: true,
     resumeURL:
       "https://drive.google.com/file/d/1hH9SQBsA51unndvQjhWNm-Bl7_4T-jmZ/view?usp=sharing",
     githubURL: "https://github.com/LindseyKCrittendon",
