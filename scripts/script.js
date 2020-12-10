@@ -1,6 +1,3 @@
-
-
-
 const students = [
   {
     firstName: "Lindsey",
@@ -12,10 +9,14 @@ const students = [
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "https://www.linkedin.com/in/lindsey-crittendon/",
     serverSideCapstoneURL: "https://youtu.be/3vZCYdE74Uk",
-    interests: "I loved working with SQL!  There is something that really gets me when it comes to putting data in the database but pulling back and manipulating it to display what you want!  I've started reading up on Azure and machine learning.  I love how you can train Azure to do things such as perform facial recognition.  I've been a beekeeper for years, because, like coding, you learn something new all the time.  #saveTheBees",
+    interests:
+      "I loved working with SQL!  There is something that really gets me when it comes to putting data in the database but pulling back and manipulating it to display what you want!  I've started reading up on Azure and machine learning.  I love how you can train Azure to do things such as perform facial recognition.  I've been a beekeeper for years, because, like coding, you learn something new all the time.  #saveTheBees",
     autobiography: "The Hitchhiker's Guide to Imposter Syndrome",
-    commonPhrases: "Depends on what is happening.  It ranges from, \"How cool is that?\" to, \"I think it's time to put in a debugger...\"",
-    lookingFor: "I want to go to work excited for what I'm going to learn next rather than feeling like I'm functioning on autopilot.  I want to pursue data science to track trends and make reliable future predictions in terms of data.  Machine learning and AI definitely plays into this."
+    commonPhrases:
+      'Depends on what is happening.  It ranges from, "How cool is that?" to, "I think it\'s time to put in a debugger..."',
+    lookingFor:
+      "I want to go to work excited for what I'm going to learn next rather than feeling like I'm functioning on autopilot.  I want to pursue data science to track trends and make reliable future predictions in terms of data.  Machine learning and AI definitely plays into this.",
+      looking: true
   },
   {
     firstName: "Stephen",
@@ -25,25 +26,33 @@ const students = [
     photoURL: "images/headshots/Stephen.jpg",
     githubURL: "https://github.com/StephenAvila2020",
     linkedInURL: "https://www.linkedin.com/in/stephen-avila1/",
-    interests: "I am vastly interested in about everything technical as far as software/computers go. From building a program in a new language to building a PC to game on, I find both building processes to be exciting. I've always been a fan of science fiction and the future of technology so I love being in the field and learning about all the different aspects that I can.",
+    interests:
+      "I am vastly interested in about everything technical as far as software/computers go. From building a program in a new language to building a PC to game on, I find both building processes to be exciting. I've always been a fan of science fiction and the future of technology so I love being in the field and learning about all the different aspects that I can.",
     autobiography: "It Was All a Dream",
-    commonPhrases: "I usually find myself playing music and singing along horribly off key.",
-    lookingFor: "I'm looking for a career that I can be passionate about. I feel like for too long I've neglected that part of my career goals and it definitely has an effect on your overall wellbeing. If you don't love or enjoy what you do, you'll find yourself asking why you even do it. "
+    commonPhrases:
+      "I usually find myself playing music and singing along horribly off key.",
+    lookingFor:
+      "I'm looking for a career that I can be passionate about. I feel like for too long I've neglected that part of my career goals and it definitely has an effect on your overall wellbeing. If you don't love or enjoy what you do, you'll find yourself asking why you even do it. ",
+      looking: true
   },
   {
     firstName: "Swathi",
     lastName: "Mukkamala",
-    interests: "I'm interested in learning more programming languages and strengthening my experience in languages I've already been exposed to. Within software development, I'm also interested in UI/UX Research and Design; I'm passionate about learning and understanding users' needs and being able to implement solutions in a way that is relevant to them. On a more lighthearted note, I love watching competitive cooking and baking shows, going on spontaneous adventures around West Virginia, and having a great time making really bad DIY projects.",
+    interests:
+      "I'm interested in learning more programming languages and strengthening my experience in languages I've already been exposed to. Within software development, I'm also interested in UI/UX Research and Design; I'm passionate about learning and understanding users' needs and being able to implement solutions in a way that is relevant to them. On a more lighthearted note, I love watching competitive cooking and baking shows, going on spontaneous adventures around West Virginia, and having a great time making really bad DIY projects.",
     autobiography: "Swath Gone Wild",
     commonPhrases: "Woah, there's a shortcut for that?!",
-    lookingFor: "I want to be able to work with a great team that prioritizes learning and investing in each others' skill sets at a company that I am passionate about.",
-    resumeURL: "https://drive.google.com/file/d/1d3tU8oW40AYmkt4JR1V6miF3hrx4FFj6/view?usp=sharing",
+    lookingFor:
+      "I want to be able to work with a great team that prioritizes learning and investing in each others' skill sets at a company that I am passionate about.",
+    resumeURL:
+      "https://drive.google.com/file/d/1d3tU8oW40AYmkt4JR1V6miF3hrx4FFj6/view?usp=sharing",
     photoURL: "images/headshots/Swathi.jpg",
     linkedInURL: "https://www.linkedin.com/in/swathi-mukkamala/",
     githubURL: "https://github.com/swathi862",
     frontEndCapstoneURL: "https://youtu.be/ltoAlkCN4YI",
     serverSideCapstoneURL: "https://youtu.be/WFwzTMeswzg",
-    hired: true
+    hired: true,
+    looking: true
   },
   {
     firstName: "Sarah",
@@ -53,10 +62,15 @@ const students = [
     photoURL: "images/headshots/Sarah.jpg",
     githubURL: "https://github.com/sarahebrooks12",
     linkedInURL: "http://linkedin.com/in/sarah-tredway-brooks/",
-    interests: "I love books, true crime, helping other people find bugs in their code, and foggy mornings.",
-    autobiography: "Sarah \"why you got to be like that\" Tredway-Brooks: No ragrets",
-    commonPhrases: "\"Please work\"",
-    lookingFor: "To be a part of a great team. To be able to go to Disney World."
+    interests:
+      "I love books, true crime, helping other people find bugs in their code, and foggy mornings.",
+    autobiography:
+      'Sarah "why you got to be like that" Tredway-Brooks: No ragrets',
+    commonPhrases: '"Please work"',
+    hired: true,
+    lookingFor:
+      "To be a part of a great team. To be able to go to Disney World.",
+      looking: true
   },
   {
     firstName: "Pat",
@@ -68,10 +82,13 @@ const students = [
     linkedInURL: "http://www.linkedin.com/in/pls304",
     frontEndCapstoneURL: "https://youtu.be/r7dfDFJky-I",
     serverSideCapstoneURL: "https://youtu.be/e3U11FEL5Tc",
-    interests: "SQL, problem solving, application development support, DevOps, learning new programming skills and languages, photography, anything outdoors, dogs, running, music",
+    interests:
+      "SQL, problem solving, application development support, DevOps, learning new programming skills and languages, photography, anything outdoors, dogs, running, music",
     autobiography: "A Strong Finish",
     commonPhrases: "YAY!!",
-    lookingFor: "A good team and cultural fit. Opportunities for learning and growing."
+    lookingFor:
+      "A good team and cultural fit. Opportunities for learning and growing.",
+      looking: true
   },
   {
     firstName: "Austin",
@@ -82,10 +99,13 @@ const students = [
     githubURL: "https://github.com/apreece13",
     linkedInURL: "http://www.linkedin.com/in/austin-preece",
     serverSideCapstoneURL: "https://youtu.be/jcUwGVWmqgM",
-    interests: "I'm interested in mobile app development, accessibility, iOS development, and other areas when it comes to software. Outside of software I enjoy yoga, cooking, various sports, animation, piano, and spending time with friends and family.",
+    interests:
+      "I'm interested in mobile app development, accessibility, iOS development, and other areas when it comes to software. Outside of software I enjoy yoga, cooking, various sports, animation, piano, and spending time with friends and family.",
     autobiography: "The Happiest Man Alive",
     commonPhrases: "Well, let's see if this works!",
-    lookingFor: "An opportunity to grow a develop my skills while contributing to solving the immediate problems at hand."
+    lookingFor:
+      "An opportunity to grow a develop my skills while contributing to solving the immediate problems at hand.",
+      looking: true
   },
   {
     firstName: "Ashon",
@@ -96,10 +116,14 @@ const students = [
     githubURL: "https://github.com/AWoodbury01",
     linkedInURL: "https://www.linkedin.com/in/ashon-woodbury-b77896104/",
     serverSideCapstoneURL: "https://youtu.be/dXnvpsHbf1Q",
-    interests: "I am passionate about UI/UX design and front-end development. My projects at NewForce have had a large focus on ease of use, aesthetics, and the user experience. Outside of coding, I am interested in mobile technology, calligraphy, video games, and my cat Zula.",
-    autobiography: "The Voice in the Ashes: A Tale of the Mysterious and Peculiar Mind of One, Ashon Woodbury: Book 1, Part 3, The Musical: The Movie",
+    interests:
+      "I am passionate about UI/UX design and front-end development. My projects at NewForce have had a large focus on ease of use, aesthetics, and the user experience. Outside of coding, I am interested in mobile technology, calligraphy, video games, and my cat Zula.",
+    autobiography:
+      "The Voice in the Ashes: A Tale of the Mysterious and Peculiar Mind of One, Ashon Woodbury: Book 1, Part 3, The Musical: The Movie",
     commonPhrases: "Does this work? No, okay how about this?",
-    lookingFor: "I am looking for a company that will allow me to grow with my growing career. One with a team of resources that can share their knowledge, so I can be the best I can be."
+    lookingFor:
+      "I am looking for a company that will allow me to grow with my growing career. One with a team of resources that can share their knowledge, so I can be the best I can be.",
+      looking: true
   },
   {
     firstName: "Barry",
@@ -111,10 +135,14 @@ const students = [
     githubURL: "https://github.com/barrygriffith84",
     frontEndCapstoneURL: "https://youtu.be/8ITCrvrkRXQ",
     serverSideCapstoneURL: "https://youtu.be/tLEcP_YiU0c",
-    interests: "I'm interested in front-end development, SQL, and data analytics.  I really enjoyed working with JavaScript and React.  I also enjoyed writing SQL queries, and playing around with data.  I hope to eventually get a master’s degree in Data Analytics.  ",
-    autobiography: "The Chef Boyardee of Code: How to Solve Your Problems with Spaghetti",
+    interests:
+      "I'm interested in front-end development, SQL, and data analytics.  I really enjoyed working with JavaScript and React.  I also enjoyed writing SQL queries, and playing around with data.  I hope to eventually get a master’s degree in Data Analytics.  ",
+    autobiography:
+      "The Chef Boyardee of Code: How to Solve Your Problems with Spaghetti",
     commonPhrases: "Thank goodness for Stack Overflow",
-    lookingFor: "I'm looking for an employer that's going to invest in me.  I want to become the best developer I can be, and I want an employer that is focused on developing my knowledge base."
+    lookingFor:
+      "I'm looking for an employer that's going to invest in me.  I want to become the best developer I can be, and I want an employer that is focused on developing my knowledge base.",
+      looking:true
   },
   {
     firstName: "Derek",
@@ -127,9 +155,12 @@ const students = [
     frontEndCapstoneURL: "https://youtu.be/PAwUFowvkik",
     serverSideCapstoneURL: "https://youtu.be/4XkcDwQRy1Q",
     interests: "Furthering my skills by learning new languages",
-    autobiography: "\"Well That Happend\" by Derek Mayse",
-    commonPhrases: "If I'm in the zone you'll probably hear me talking myself through whatever it is I'm doing.",
-    lookingFor: "I'm looking for a good team and a company that will help me grow as a developer."
+    autobiography: '"Well That Happend" by Derek Mayse',
+    commonPhrases:
+      "If I'm in the zone you'll probably hear me talking myself through whatever it is I'm doing.",
+    lookingFor:
+      "I'm looking for a good team and a company that will help me grow as a developer.",
+      looking: true
   },
   {
     firstName: "Derek",
@@ -142,7 +173,8 @@ const students = [
     interests: "",
     autobiography: "",
     commonPhrases: "",
-    lookingFor: ""
+    lookingFor: "",
+    looking: true
   },
   {
     firstName: "Devin",
@@ -152,25 +184,31 @@ const students = [
     photoURL: "images/headshots/Devin.jpg",
     githubURL: "https://github.com/dconroy91?tab=repositories",
     linkedInURL: "https://www.linkedin.com/in/devconroy/",
+    frontEndCapstoneURL: "https://youtu.be/_2VqB-7czHc",
     serverSideCapstoneURL: "https://youtu.be/DoQpNBvwK4U",
     interests: "Becoming an Astronaut",
     autobiography: "Why Devin Never Became An Astronaut",
     commonPhrases: "This looks familiar",
-    lookingFor: "I want to make a difference in a team environment "
+    lookingFor: "I want to make a difference in a team environment ",
+    looking: true
   },
   {
     firstName: "Dylan",
     lastName: "Bishop",
+    frontEndCapstoneURL: "https://youtu.be/mUZqUcd5ztI",
     resumeURL:
       "https://drive.google.com/file/d/1hCYbJ7Tyrm7WsTiRrqbTF5otwEpqb88X/view?usp=sharing",
     photoURL: "images/headshots/Dylan.jpg",
     linkedInURL: "https://www.linkedin.com/in/dylan-bishop/",
     githubURL: "https://github.com/dylbyl",
     serverSideCapstoneURL: "https://youtu.be/tF0Va9HlIc4",
-    interests: "I’d love to dive into front-end development, user interfaces, and database maintenance! Outside of coding, I love finding new music, reading books, and unwinding with video games.",
+    interests:
+      "I’d love to dive into front-end development, user interfaces, and database maintenance! Outside of coding, I love finding new music, reading books, and unwinding with video games.",
     autobiography: "A Series of Slightly Fortunate Events",
     commonPhrases: "SLOW DOWN AND BREATHE",
-    lookingFor: "A fun team with a welcoming atmosphere, a chance to learn and apply many new things!"
+    lookingFor:
+      "A fun team with a welcoming atmosphere, a chance to learn and apply many new things!",
+      looking: true
   },
   {
     firstName: "Michael",
@@ -184,7 +222,8 @@ const students = [
     autobiography: "",
     commonPhrases: "",
     lookingFor: "",
-    serverSideCapstoneURL: "https://youtu.be/DEIljPrXuFk"
+    serverSideCapstoneURL: "https://youtu.be/DEIljPrXuFk",
+    looking: false,
   },
 ];
 
@@ -257,7 +296,7 @@ const buildCapstoneVideo = (videoURL) => {
   if (videoURL == undefined) {
     return `<p>Video Coming soon!</p>`;
   } else {
-    console.log(videoURL)
+    console.log(videoURL);
     const videoId = videoURL.slice(17);
     const embedURL = `https://www.youtube.com/embed/${videoId}`;
     console.log("videoId", videoId);
@@ -267,37 +306,39 @@ const buildCapstoneVideo = (videoURL) => {
 };
 
 buildStudentInfoSection = (studentObject) => {
-  let studentInfoHTMLString = ""
-  if(studentObject.interests != ""){
+  let studentInfoHTMLString = "";
+  if (studentObject.interests != "") {
     studentInfoHTMLString += `<h4>I'm interested in:</h4>
-    <p>${studentObject.interests}</p>`
+    <p>${studentObject.interests}</p>`;
   }
 
-  if(studentObject.autobiography != ""){
-    studentInfoHTMLString +=  `<h4>The title of my future autobiography will be:</h4>
-    <p>${studentObject.autobiography}</p>`
-
+  if (studentObject.autobiography != "") {
+    studentInfoHTMLString += `<h4>The title of my future autobiography will be:</h4>
+    <p>${studentObject.autobiography}</p>`;
   }
 
-  if(studentObject.commonPhrases != ""){
-    studentInfoHTMLString +=  `<h4>When coding, I most often find myself saying:</h4>
-    <p>${studentObject.commonPhrases}</p>`
+  if (studentObject.commonPhrases != "") {
+    studentInfoHTMLString += `<h4>When coding, I most often find myself saying:</h4>
+    <p>${studentObject.commonPhrases}</p>`;
   }
 
-  if(studentObject.lookingFor != ""){
-    studentInfoHTMLString +=  `<h4>Things I'm looking for in a job:</h4>
-    <p>${studentObject.lookingFor}</p>`
+  if (studentObject.lookingFor != "") {
+    studentInfoHTMLString += `<h4>Things I'm looking for in a job:</h4>
+    <p>${studentObject.lookingFor}</p>`;
   }
 
   return studentInfoHTMLString;
-
-}
+};
 const buildStudentComponent = (studentObject, i) => {
   console.log(studentObject.frontEndCapstoneURL);
   return `
   <div class="col-md-3">
     <div class="card mt-4 student-card">
-      ${studentObject.hired ? "  <div class=\"ribbon ribbon-top-left\"><span>Hired</span></div>" : ""}
+      ${
+        studentObject.hired
+          ? '  <div class="ribbon ribbon-top-left"><span>Hired</span></div>'
+          : ""
+      }
       <img src="${
         studentObject.photoURL
       }" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
@@ -367,9 +408,12 @@ const studentContainer = document.querySelector("#student-container");
 students.sort((a, b) => a.firstName.localeCompare(b.firstName));
 for (let i = 0; i < students.length; i++) {
   let currentStudent = students[i];
-  let studentHTML = buildStudentComponent(currentStudent, i);
-
-  studentContainer.innerHTML += studentHTML;
+  if (currentStudent.looking) {
+    let studentHTML = buildStudentComponent(currentStudent, i);
+    studentContainer.innerHTML += studentHTML;
+  } else {
+    console.log("current student", currentStudent)
+  }
 }
 
 let techStackContainer = document.querySelector("#tech-stack-container");
