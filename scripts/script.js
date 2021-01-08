@@ -123,7 +123,8 @@ const students = [
     commonPhrases: "Does this work? No, okay how about this?",
     lookingFor:
       "I am looking for a company that will allow me to grow with my growing career. One with a team of resources that can share their knowledge, so I can be the best I can be.",
-      looking: true
+      looking: true,
+      hired: true
   },
   {
     firstName: "Barry",
