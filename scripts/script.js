@@ -105,7 +105,8 @@ const students = [
     commonPhrases: "Well, let's see if this works!",
     lookingFor:
       "An opportunity to grow a develop my skills while contributing to solving the immediate problems at hand.",
-      looking: true
+      looking: true,
+      hired: true
   },
   {
     firstName: "Ashon",
