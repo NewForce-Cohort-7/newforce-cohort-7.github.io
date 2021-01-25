@@ -16,7 +16,7 @@ const students = [
       'Depends on what is happening.  It ranges from, "How cool is that?" to, "I think it\'s time to put in a debugger..."',
     lookingFor:
       "I want to go to work excited for what I'm going to learn next rather than feeling like I'm functioning on autopilot.  I want to pursue data science to track trends and make reliable future predictions in terms of data.  Machine learning and AI definitely plays into this.",
-      looking: true
+    looking: true,
   },
   {
     firstName: "Stephen",
@@ -33,7 +33,7 @@ const students = [
       "I usually find myself playing music and singing along horribly off key.",
     lookingFor:
       "I'm looking for a career that I can be passionate about. I feel like for too long I've neglected that part of my career goals and it definitely has an effect on your overall wellbeing. If you don't love or enjoy what you do, you'll find yourself asking why you even do it. ",
-      looking: true
+    looking: true,
   },
   {
     firstName: "Swathi",
@@ -52,7 +52,7 @@ const students = [
     frontEndCapstoneURL: "https://youtu.be/ltoAlkCN4YI",
     serverSideCapstoneURL: "https://youtu.be/WFwzTMeswzg",
     hired: true,
-    looking: true
+    looking: true,
   },
   {
     firstName: "Sarah",
@@ -70,7 +70,7 @@ const students = [
     hired: true,
     lookingFor:
       "To be a part of a great team. To be able to go to Disney World.",
-      looking: true
+    looking: true,
   },
   {
     firstName: "Pat",
@@ -88,7 +88,7 @@ const students = [
     commonPhrases: "YAY!!",
     lookingFor:
       "A good team and cultural fit. Opportunities for learning and growing.",
-      looking: true
+    looking: true,
   },
   {
     firstName: "Austin",
@@ -105,8 +105,8 @@ const students = [
     commonPhrases: "Well, let's see if this works!",
     lookingFor:
       "An opportunity to grow a develop my skills while contributing to solving the immediate problems at hand.",
-      looking: true,
-      hired: true
+    looking: true,
+    hired: true,
   },
   {
     firstName: "Ashon",
@@ -124,8 +124,8 @@ const students = [
     commonPhrases: "Does this work? No, okay how about this?",
     lookingFor:
       "I am looking for a company that will allow me to grow with my growing career. One with a team of resources that can share their knowledge, so I can be the best I can be.",
-      looking: true,
-      hired: true
+    looking: true,
+    hired: true,
   },
   {
     firstName: "Barry",
@@ -144,7 +144,7 @@ const students = [
     commonPhrases: "Thank goodness for Stack Overflow",
     lookingFor:
       "I'm looking for an employer that's going to invest in me.  I want to become the best developer I can be, and I want an employer that is focused on developing my knowledge base.",
-      looking:true
+    looking: true,
   },
   {
     firstName: "Derek",
@@ -162,7 +162,7 @@ const students = [
       "If I'm in the zone you'll probably hear me talking myself through whatever it is I'm doing.",
     lookingFor:
       "I'm looking for a good team and a company that will help me grow as a developer.",
-      looking: true
+    looking: true,
   },
   {
     firstName: "Derek",
@@ -176,7 +176,7 @@ const students = [
     autobiography: "",
     commonPhrases: "",
     lookingFor: "",
-    looking: true
+    looking: true,
   },
   {
     firstName: "Devin",
@@ -192,7 +192,7 @@ const students = [
     autobiography: "Why Devin Never Became An Astronaut",
     commonPhrases: "This looks familiar",
     lookingFor: "I want to make a difference in a team environment ",
-    looking: true
+    looking: true,
   },
   {
     firstName: "Dylan",
@@ -210,7 +210,7 @@ const students = [
     commonPhrases: "SLOW DOWN AND BREATHE",
     lookingFor:
       "A fun team with a welcoming atmosphere, a chance to learn and apply many new things!",
-      looking: true
+    looking: true,
   },
   {
     firstName: "Michael",
@@ -226,6 +226,25 @@ const students = [
     lookingFor: "",
     serverSideCapstoneURL: "https://youtu.be/DEIljPrXuFk",
     looking: false,
+  },
+  {
+    firstName: "Jacob",
+    lastName: "Perry",
+    resumeURL:
+      "https://drive.google.com/file/d/1t5FGuZdg2QPiXY1ODNC_7Ns6S-5avfqK/view?usp=sharing",
+    photoURL: "images/headshots/Jacob.jpg",
+    githubURL: "https://github.com/JacobPerry34",
+    linkedInURL: "https://www.linkedin.com/in/jacob-perry34/",
+    interests:
+      "SQL, Database structuring, Server Side Development, Star Wars Theory, Video Game Enthusiast",
+    autobiography: "Jacob Perry: The Technical Life of a Family Man",
+    commonPhrases:
+      "Hmm... Let’s try this | There’s a solution to every problem ",
+    lookingFor:
+      "A great work environment that will not only help me grow as a developer, but as a person as well ",
+    serverSideCapstoneURL: "",
+    looking: true,
+    isTA: true,
   },
 ];
 
@@ -331,8 +350,8 @@ buildStudentInfoSection = (studentObject) => {
 
   return studentInfoHTMLString;
 };
+
 const buildStudentComponent = (studentObject, i) => {
-  console.log(studentObject.frontEndCapstoneURL);
   return `
   <div class="col-md-3">
     <div class="card mt-4 student-card">
@@ -407,14 +426,17 @@ buildTechStackLogo = (techStackObject) => {
 };
 
 const studentContainer = document.querySelector("#student-container");
+const TAcontainer = document.querySelector("#TA-container");
+
 students.sort((a, b) => a.firstName.localeCompare(b.firstName));
 for (let i = 0; i < students.length; i++) {
   let currentStudent = students[i];
-  if (currentStudent.looking) {
+  if (currentStudent.looking && !currentStudent.isTA) {
     let studentHTML = buildStudentComponent(currentStudent, i);
     studentContainer.innerHTML += studentHTML;
-  } else {
-    console.log("current student", currentStudent)
+  } else if (currentStudent.looking && currentStudent.isTA) {
+    let studentHTML = buildStudentComponent(currentStudent, i);
+    TAcontainer.innerHTML += studentHTML;
   }
 }
 
