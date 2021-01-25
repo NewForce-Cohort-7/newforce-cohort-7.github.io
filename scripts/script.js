@@ -243,6 +243,7 @@ const students = [
     lookingFor:
       "A great work environment that will not only help me grow as a developer, but as a person as well ",
     serverSideCapstoneURL: "",
+    frontEndCapstoneURL: "",
     looking: true,
     isTA: true,
   },
