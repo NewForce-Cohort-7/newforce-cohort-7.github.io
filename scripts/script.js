@@ -232,7 +232,7 @@ const students = [
     lastName: "Perry",
     resumeURL:
       "https://drive.google.com/file/d/1t5FGuZdg2QPiXY1ODNC_7Ns6S-5avfqK/view?usp=sharing",
-    photoURL: "images/headshots/Jacob.jpg",
+    photoURL: "images/headshots/jacob.jpg",
     githubURL: "https://github.com/JacobPerry34",
     linkedInURL: "https://www.linkedin.com/in/jacob-perry34/",
     interests:
