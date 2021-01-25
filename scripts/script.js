@@ -242,8 +242,6 @@ const students = [
       "Hmm... Let’s try this | There’s a solution to every problem ",
     lookingFor:
       "A great work environment that will not only help me grow as a developer, but as a person as well ",
-    serverSideCapstoneURL: "",
-    frontEndCapstoneURL: "",
     looking: true,
     isTA: true,
   },
