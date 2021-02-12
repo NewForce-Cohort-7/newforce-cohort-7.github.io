@@ -162,7 +162,7 @@ const students = [
       "If I'm in the zone you'll probably hear me talking myself through whatever it is I'm doing.",
     lookingFor:
       "I'm looking for a good team and a company that will help me grow as a developer.",
-    looking: true,
+    looking: false,
   },
   {
     firstName: "Derek",
@@ -225,7 +225,7 @@ const students = [
     commonPhrases: "",
     lookingFor: "",
     serverSideCapstoneURL: "https://youtu.be/DEIljPrXuFk",
-    looking: false,
+    looking: true,
   },
   {
     firstName: "Jacob",
@@ -319,8 +319,6 @@ const buildCapstoneVideo = (videoURL) => {
     console.log(videoURL);
     const videoId = videoURL.slice(17);
     const embedURL = `https://www.youtube.com/embed/${videoId}`;
-    console.log("videoId", videoId);
-    console.log("embedURL", embedURL);
     return `<iframe width="360" height="202" src="${embedURL}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
   }
 };
