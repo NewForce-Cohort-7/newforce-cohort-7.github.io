@@ -193,6 +193,8 @@ const students = [
     commonPhrases: "This looks familiar",
     lookingFor: "I want to make a difference in a team environment ",
     looking: true,
+    hired: true
+
   },
   {
     firstName: "Dylan",
