@@ -213,6 +213,7 @@ const students = [
     lookingFor:
       "A fun team with a welcoming atmosphere, a chance to learn and apply many new things!",
     looking: true,
+    hired: true
   },
   {
     firstName: "Michael",
