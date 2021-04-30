@@ -34,6 +34,7 @@ const students = [
     lookingFor:
       "I'm looking for a career that I can be passionate about. I feel like for too long I've neglected that part of my career goals and it definitely has an effect on your overall wellbeing. If you don't love or enjoy what you do, you'll find yourself asking why you even do it. ",
     looking: true,
+    hired: true
   },
   {
     firstName: "Swathi",
@@ -89,6 +90,7 @@ const students = [
     lookingFor:
       "A good team and cultural fit. Opportunities for learning and growing.",
     looking: true,
+    hired: true
   },
   {
     firstName: "Austin",
