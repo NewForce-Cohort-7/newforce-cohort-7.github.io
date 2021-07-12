@@ -147,6 +147,7 @@ const students = [
     lookingFor:
       "I'm looking for an employer that's going to invest in me.  I want to become the best developer I can be, and I want an employer that is focused on developing my knowledge base.",
     looking: true,
+    hired: true
   },
   {
     firstName: "Derek",
@@ -179,6 +180,7 @@ const students = [
     commonPhrases: "",
     lookingFor: "",
     looking: true,
+    hired: true
   },
   {
     firstName: "Devin",
@@ -249,6 +251,7 @@ const students = [
       "A great work environment that will not only help me grow as a developer, but as a person as well ",
     looking: true,
     isTA: true,
+    hired: true
   },
 ];
 
