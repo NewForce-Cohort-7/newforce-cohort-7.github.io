@@ -36,7 +36,7 @@ const buildStudentInfoSection = (studentObject) => {
 
 export const buildStudentComponent = (studentObject, i) => {
   return `
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="card mt-4 student-card">
         ${
           studentObject.hired
@@ -51,6 +51,7 @@ export const buildStudentComponent = (studentObject, i) => {
     studentObject.lastName
   }</h5>
         <button type="button"  data-toggle="modal" data-target="#modal-${i}">
+
           Meet ${studentObject.firstName}
         </button>
         </div>
@@ -60,12 +61,16 @@ export const buildStudentComponent = (studentObject, i) => {
     studentObject.firstName
   }Modal" aria-hidden="true">
     <div class="modal-dialog student-modal">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+    <img src="images/headshots/${
+      studentObject.firstName
+    }/funny.jpg" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
       <div class="modal-content center-text">
         <div class="modal-header">
           <h2 class="modal-title">Hi, I'm ${studentObject.firstName}!</h2>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+
         </div>
         <div class="modal-body container-fluid student-info">
         ${buildStudentInfoSection(studentObject)}
