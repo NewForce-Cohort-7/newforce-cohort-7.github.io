@@ -34,6 +34,7 @@ const buildStudentInfoSection = (studentObject) => {
   return studentInfoHTMLString;
 };
 
+
 export const buildStudentComponent = (studentObject, i) => {
   return `
     <div class="col-md-4">
@@ -43,9 +44,7 @@ export const buildStudentComponent = (studentObject, i) => {
             ? '  <div class="ribbon ribbon-top-left"><span>Hired</span></div>'
             : ""
         }
-        <img src="images/headshots/${
-          studentObject.firstName
-        }/serious.jpg" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
+        <img src="images/headshots/${studentObject.firstName}-serious.jpg" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
         <div class="card-body center-text">
         <h5 class="card-title">${studentObject.firstName} ${
     studentObject.lastName
@@ -61,18 +60,15 @@ export const buildStudentComponent = (studentObject, i) => {
     studentObject.firstName
   }Modal" aria-hidden="true">
     <div class="modal-dialog student-modal">
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-    <img src="images/headshots/${
-      studentObject.firstName
-    }/funny.jpg" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
       <div class="modal-content center-text">
-        <div class="modal-header">
-          <h2 class="modal-title">Hi, I'm ${studentObject.firstName}!</h2>
-
-        </div>
         <div class="modal-body container-fluid student-info">
+          <button type="button" class="close close-button-container" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="close-button"> &times;</span>
+          </button>
+        <img src="images/headshots/${
+          studentObject.firstName
+        }-funny.jpg" class="card-img-top modal-image" alt="Headshot of ${studentObject.firstName}">
+        <h2 class="modal-title">Hi, I'm ${studentObject.firstName}!</h2>
         ${buildStudentInfoSection(studentObject)}
         <h4 class="video-heading">Front End Capstone</h4>
         ${buildCapstoneVideo(studentObject.frontEndCapstoneURL)}

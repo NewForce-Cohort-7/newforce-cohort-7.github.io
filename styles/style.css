@@ -201,6 +201,24 @@ header {
 	background-color: #ffc859;
  }
 
+ .close-button-container{
+	 height: 1.2em;
+	 text-align: center;
+	 width: 1em;
+	 border-radius: 50%;
+	 background-color: red !important;
+	 margin-bottom: 1em;
+	 margin-top: 0;
+	 padding: 0;
+ }
+
+ .close-button {
+	 color: white;
+	 border-radius: 50%;
+ }
+
+
+
  /* Social icons styles */
 
  .student-modal-footer {

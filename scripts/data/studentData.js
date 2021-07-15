@@ -10,11 +10,12 @@ const students = [
     linkedInURL: "https://www.linkedin.com/in/david-billups/",
     serverSideCapstoneURL: "",
     interests:
-      "",
+      "learning about how things work and using that knowledge to solve problems. I enjoy spending time outdoors and with friends/family; preferably at the same time on or around a body of water. I find economics, history, and sociology to be fascinating, even though in grade school I loathed each of these. ",
+      autobiography: "Through the storm, shines a rainbow",
     commonPhrases:
-      '',
+    "What sort of stupid syntax error did I make this time? This should definitely work!",
     lookingFor:
-      "",
+      "Community, innovative and creative freedom, and opportunities to continue learning",
     looking: true,
   },
   {
@@ -26,7 +27,7 @@ const students = [
     githubURL: "https://github.com/Detective-Coder",
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "https://www.linkedin.com/in/aaron-frankenfield/",
-    serverSideCapstoneURL: "",
+    serverSideCapstoneURL: "https://youtu.be/PcxaUCpQvGw",
     interests:
       "I really enjoy working out a problem in web development. There's such a joy and relief when something actually shows up on the page. I'm also really interested in Cybersecurity. I've watched so many movies and tv shows where it looks super cool. I play video games all the time, and I hope that one day I can make one of my own. Outside of work, I love go swimming, see movies, and play Chess. I can't help it. Every time I get a free second, I've got to start an online game of Chess. It always makes me late for dinner. ",
       autobiography: "Second Best Isn't Half Bad",
@@ -118,11 +119,12 @@ const students = [
     linkedInURL: "https://www.linkedin.com/in/jonwnewton ",
     serverSideCapstoneURL: "",
     interests:
-      "",
+      "A fast-paced development role where I can balance my time between impactful frontend UI design and backend object-oriented program. Additionally, I'm always delighted to whip up a bash script or write engaging documentation.",
+      autobiography: "The Cyberpunk Dreams of Jon Newton",
     commonPhrases:
-      '',
+      "Well Windows... you're not a Mac.",
     lookingFor:
-      "",
+      "An open workplace where teams can collaborate freely in order to support, innovate, and create the best products.",
     looking: true,
   },
   {
@@ -154,11 +156,12 @@ const students = [
     linkedInURL: "https://www.linkedin.com/in/patti-perry ",
     serverSideCapstoneURL: "",
     interests:
-      "",
+      "I'm interested in learning new languages, troubleshooting code, SQL, C#, and other areas when it comes to software. Outside of software I enjoy spending time outdoors with my family and friends.",
+      autobiography: "I Got This. ",
     commonPhrases:
-      '',
+      "Hmmm, let's try this...",
     lookingFor:
-      "",
+      "I want to be part of a company that is a good cultural fit, where I'm part of a team that prioritizes learning and investing in each others' skills.",
     looking: true,
   },
   {
