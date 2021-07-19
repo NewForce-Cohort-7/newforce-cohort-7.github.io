@@ -82,6 +82,7 @@ const students = [
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "http://linkedin.com/in/wesley-harrison ",
     serverSideCapstoneURL: "",
+    frontEndCapstoneURL: "https://youtu.be/34BRvrmnw4k",
     interests:
       "",
     commonPhrases:
@@ -107,6 +108,7 @@ const students = [
     lookingFor:
       "",
     looking: true,
+    hired: true
   },
   {
     firstName: "Jon",
