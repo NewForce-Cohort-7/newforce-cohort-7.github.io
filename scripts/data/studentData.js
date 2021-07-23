@@ -84,17 +84,16 @@ const students = [
     serverSideCapstoneURL: "",
     frontEndCapstoneURL: "https://youtu.be/34BRvrmnw4k",
     interests:
-      "",
+      "Learning new things, discovering music, concerts, sports (especially WVU), gaming, PC building, and new technologies. ",
     commonPhrases:
       '',
     lookingFor:
-      "",
+      "I’m looking for a job where I can make meaningful contributions to a company’s goals while growing as a developer and being challenged daily. I hope to work for a company with a strong culture and people who build each other up. ",
     looking: true,
   },
   {
     firstName: "Chance",
     lastName: "Lane",
-    hired: false,
     resumeURL:
       "https://drive.google.com/file/d/1yCgOUkfPAlIbG6RpPVjhnRSjVwE59wkU/view?usp=sharing",
     githubURL: "https://github.com/255AM",
@@ -128,6 +127,7 @@ const students = [
     lookingFor:
       "An open workplace where teams can collaborate freely in order to support, innovate, and create the best products.",
     looking: true,
+    serverSideCapstoneURL: "https://youtu.be/_yU71WQ7gOE"
   },
   {
     firstName: "Vincent",
@@ -165,6 +165,7 @@ const students = [
     lookingFor:
       "I want to be part of a company that is a good cultural fit, where I'm part of a team that prioritizes learning and investing in each others' skills.",
     looking: true,
+    serverSideCapstoneURL: "https://www.youtube.com/watch?v=BQpsrxszbB0"
   },
   {
     firstName: "John",
