@@ -152,7 +152,7 @@ const students = [
     lastName: "Perry",
     hired: false,
     resumeURL:
-      "https://drive.google.com/file/d/10OgH8yWwbLigd5e_PakxTynmiu8FBpZX/view?usp=sharing",
+      "https://drive.google.com/file/d/1hnzTbWfLivTrxI0iKQSP9K1jQ9sPNtaP/view?usp=sharing",
     githubURL: "https://github.com/pattiperry ",
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "https://www.linkedin.com/in/patti-perry ",
