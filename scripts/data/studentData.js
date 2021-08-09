@@ -75,7 +75,7 @@ const students = [
   {
     firstName: "Wesley",
     lastName: "Harrison",
-    hired: false,
+    hired: true,
     resumeURL:
       "https://drive.google.com/file/d/1LiC7hwp7fn7vaGGLPeRiwebl2Uh2WoLN/view?usp=sharing",
     githubURL: "https://github.com/wrharrison23 ",
@@ -107,7 +107,7 @@ const students = [
     lookingFor:
       "",
     looking: true,
-    hired: true
+    hired: false
   },
   {
     firstName: "Jon",
