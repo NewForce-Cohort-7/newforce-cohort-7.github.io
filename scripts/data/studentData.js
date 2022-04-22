@@ -41,9 +41,9 @@ const students = [
     serverSideCapstoneURL: "https://www.loom.com/share/36218006e5ab4d8d89627f0a46b0783e",
     frontEndCapstoneURL: "https://www.loom.com/share/8fc80b0fdd57497b800096a96950f890",
     interests:
-      "All sides of full-stack development, but I have always leaned towards front-end development and design!",
+      "All sides of full-stack development, but I have always leaned toward front-end development and design!",
     commonPhrases:
-      'WOW! Every day I’m reminded that I chose to pursue the right career for me and it amazes me really how much is involved in bringing an idea or concept to life through development.',
+      '"WOW!” Every day I’m reminded that I chose to pursue the right career for me and it amazes me how much is involved in bringing an idea or concept to life through development.',
     lookingFor:
       "A positive/encouraging work environment, career growth opportunities, and a great team to work with daily.",
     looking: true,
