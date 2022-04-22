@@ -26,8 +26,6 @@ const students = [
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "https://www.linkedin.com/in/nimashahabshahmir",
     interests: "",
-    autobiography: "Second Best Isn't Half Bad",
-    commonPhrases:"I bet there's some example code for this. ",
     lookingFor: "",
     looking: true,
   },
