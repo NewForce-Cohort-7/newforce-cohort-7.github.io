@@ -53,9 +53,9 @@ const students = [
     lastName: "Moore",
     resumeURL:
       "https://www.canva.com/design/DAEt7Ug_Un4/MuWXaooLvUlFhwy3VAfigA/view?utm_content=DAEt7Ug_Un4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "www.github.com/jonahamoore",
+    githubURL: "https://github.com/jonahamoore",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "linkedin.com/jonahamoore",
+    linkedInURL: "https://www.linkedin.com/in/jonahamoore",
     serverSideCapstoneURL: "https://www.loom.com/share/9ea863b50ea448b59892e0e65023e4f1",
     interests:
       "",
@@ -74,7 +74,7 @@ const students = [
       "https://www.canva.com/design/DAEt7Ug_Un4/MuWXaooLvUlFhwy3VAfigA/view?utm_content=DAEt7Ug_Un4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/dimitroff2",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "www.linkedin.com/in/bcdimitroff ",
+    linkedInURL: "https://www.linkedin.com/in/bcdimitroff ",
     interests: "",
     commonPhrases:"",
     lookingFor:"",
@@ -89,7 +89,7 @@ const students = [
       "https://www.canva.com/design/DAEvWsO9LsI/VScO3brNFxRoM8bv_kNjKw/view?utm_content=DAEvWsO9LsI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/bdigregs",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "linkedin.com/in/brandon-di-greg",
+    linkedInURL: "https://www.linkedin.com/in/brandon-di-greg",
     serverSideCapstoneURL: "",
     interests:
       "",
@@ -105,9 +105,9 @@ const students = [
     hired: false,
     resumeURL:
       "https://www.canva.com/design/DAEutr3iAIM/fJr-RcCHDaG-PxgJ9-5gcg/view?utm_content=DAEutr3iAIM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "github.com/helloamandaball",
+    githubURL: "https://github.com/helloamandaball",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "linkedin.com/in/helloamandaball",
+    linkedInURL: "https://www.linkedin.com/in/helloamandaball",
     serverSideCapstoneURL: "",
     interests:
       "",
@@ -145,7 +145,7 @@ const students = [
       "https://www.canva.com/design/DAEvKUCFwK0/vQa3DIxs-CPycqZxZ7NhIA/view?utm_content=DAEvKUCFwK0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/nicholasvperry",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "www.linkedin.com/in/nicholasvperry",
+    linkedInURL: "https://www.linkedin.com/in/nicholasvperry",
     serverSideCapstoneURL: "",
     interests:
       "I'm interested in full stack development. I love making a beautiful app that is feature packed and has good UI and UX! I have used many apps throughout my career and some of them really helped my job to be easier, and some just added frustration to my job. I want to build things that help make the job easier for those who use what I build. I am also interested in becoming a professional disc golfer as a side job.",
@@ -163,7 +163,7 @@ const students = [
       "https://www.canva.com/design/DAEt-8cyUx0/MH4QIuC9uKILtHSXtVw_Rg/view?utm_content=DAEt-8cyUx0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/andy-birt",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "linkedin.com/in/andrew-birt/",
+    linkedInURL: "https://www.linkedin.com/in/andrew-birt/",
     serverSideCapstoneURL: "",
     interests:
       "On the back end is where I feel like I have the most interest. I really like learning languages like C# and .NET but have really become interested in SQL. I do enjoy working on the front end too. I particularly enjoy JavaScript or React. React has a lot of tools that I find interesting such as hooks.",
@@ -181,7 +181,7 @@ const students = [
       "https://www.canva.com/design/DAEuvN8J5F4/X7ihVYbahhNrpf7TSzXyuw/view?utm_content=DAEuvN8J5F4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/MelQuan95",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "www.linkedin.com/in/melquan-green",
+    linkedInURL: "https://www.linkedin.com/in/melquan-green",
     serverSideCapstoneURL: "",
     interests:
       "",
@@ -215,9 +215,9 @@ const students = [
     hired: true,
     resumeURL:
       "https://www.canva.com/design/DAEt-hS7qTY/UmhgdbowQB9BpQq_xFz17g/view?utm_content=DAEt-hS7qTY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelinkk",
-    githubURL: "github.com/ded-possum",
+    githubURL: "https://github.com/ded-possum",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "linkedin.com/in/steve-powers",
+    linkedInURL: "https://www.linkedin.com/in/steve-powers",
     serverSideCapstoneURL: "",
     interests:
       "",
@@ -235,7 +235,7 @@ const students = [
       "https://www.canva.com/design/DAEuIlHMaoQ/ShZZMPYNonXH_nCmUVTGDg/view?utm_content=DAEuIlHMaoQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/heavenburdette1988",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "www.linkedin.com/in/heavenlyburdette",
+    linkedInURL: "https://www.linkedin.com/in/heavenlyburdette",
     serverSideCapstoneURL: "https://www.loom.com/share/28112bd81d4c4e40a95c45a4f17720de",
     frontEndCapstoneURL: "https://www.loom.com/share/c3132379e03c42eb9d090060f9dfdf6d",
     interests:
