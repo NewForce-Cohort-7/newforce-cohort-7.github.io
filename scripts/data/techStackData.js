@@ -38,7 +38,7 @@ const techStack = [
     },
     {
       name: "SQL Server",
-      logo: "https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg",
+      logo: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg",
     },
     {
       name: "Postman",
