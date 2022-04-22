@@ -1,9 +1,8 @@
 const buildCapstoneVideo = (videoURL) => {
-  console.log(videoURL);
+  console.log(videoURL)
   if (videoURL) {
-    const videoId = videoURL.slice(17);
-    const embedURL = `https://www.youtube.com/embed/${videoId}`;
-    return `<iframe width="360" height="202" src="${embedURL}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      const videoId = videoURL.slice(27)
+      return `<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/${videoId}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`
   } else {
     return `<p>Video Coming soon!</p>`;
   }
@@ -16,10 +15,6 @@ const buildStudentInfoSection = (studentObject) => {
       <p>${studentObject.interests}</p>`;
   }
 
-  if (studentObject.autobiography) {
-    studentInfoHTMLString += `<h4>The title of my future autobiography will be:</h4>
-      <p>${studentObject.autobiography}</p>`;
-  }
 
   if (studentObject.commonPhrases) {
     studentInfoHTMLString += `<h4>When coding, I most often find myself saying:</h4>
@@ -35,6 +30,7 @@ const buildStudentInfoSection = (studentObject) => {
 };
 
 
+
 export const buildStudentComponent = (studentObject, i) => {
   return `
     <div class="col-md-4">
@@ -44,7 +40,7 @@ export const buildStudentComponent = (studentObject, i) => {
             ? '  <div class="ribbon ribbon-top-left"><span>Hired</span></div>'
             : ""
         }
-        <img src="images/headshots/${studentObject.firstName.toLowerCase()}-serious.jpg" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
+        <img src="images/headshots/${studentObject.firstName.toLowerCase()}-serious-min-min.jpg" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
         <div class="card-body center-text">
         <h5 class="card-title">${studentObject.firstName} ${
     studentObject.lastName
@@ -67,7 +63,7 @@ export const buildStudentComponent = (studentObject, i) => {
           </button>
         <img src="images/headshots/${
           studentObject.firstName.toLowerCase()
-        }-funny.jpg" class="card-img-top modal-image" alt="Headshot of ${studentObject.firstName}">
+        }-funny-min-min.jpg" class="card-img-top modal-image" alt="Headshot of ${studentObject.firstName}">
         <h2 class="modal-title">Hi, I'm ${studentObject.firstName}!</h2>
         ${buildStudentInfoSection(studentObject)}
         <h4 class="video-heading">Front End Capstone</h4>
