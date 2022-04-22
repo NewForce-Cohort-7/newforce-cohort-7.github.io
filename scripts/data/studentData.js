@@ -175,7 +175,7 @@ const students = [
   },
   {
     firstName: "MelQuan",
-    lastName: "Brit",
+    lastName: "Green",
     hired: false,
     resumeURL:
       "https://www.canva.com/design/DAEuvN8J5F4/X7ihVYbahhNrpf7TSzXyuw/view?utm_content=DAEuvN8J5F4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
