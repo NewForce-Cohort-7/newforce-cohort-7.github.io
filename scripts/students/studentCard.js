@@ -18,7 +18,7 @@ const buildStudentInfoSection = (studentObject) => {
 
   if (studentObject.commonPhrases) {
     studentInfoHTMLString += `<h4>When coding, I most often find myself saying:</h4>
-      <p>"${studentObject.commonPhrases}"</p>`;
+      <p>${studentObject.commonPhrases}</p>`;
   }
 
   if (studentObject.lookingFor) {
