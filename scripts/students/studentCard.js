@@ -1,8 +1,14 @@
 const buildCapstoneVideo = (videoURL) => {
-  console.log(videoURL)
   if (videoURL) {
+    if(videoURL.includes("loom")){
       const videoId = videoURL.slice(27)
       return `<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/${videoId}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`
+    } else if (videoURL.includes("youtube")){
+      const videoId = videoURL.slice(32)
+      console.log("YOUTUBE VIDEO ID", videoId)
+      return `<iframe width="400" height="224" src="https://www.youtube.com/embed/${videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    }
+
   } else {
     return `<p>Video Coming soon!</p>`;
   }

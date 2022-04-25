@@ -261,7 +261,8 @@ const students = [
     githubURL: "https://github.com/mtgoat",
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "https://www.linkedin.com/in/akiko-endo/",
-    serverSideCapstoneURL: "",
+    serverSideCapstoneURL: "https://www.youtube.com/watch?v=c7a0HabwyIM",
+    frontEndCapstoneURL: "https://www.youtube.com/watch?v=6g3CXvYzU60",
     interests:
       "I really enjoy learning the server side with C#, SQL, and ADO.Net.  It is amazing to learn each step of information flow and how to manipulate data.  I also enjoy learning React and JavaScript on the client side.  It is intriguing to figure out how this huge puzzle works through trial and error.For non-coding, I enjoy practicing Origami, reading, and cooking. ",
     commonPhrases:
