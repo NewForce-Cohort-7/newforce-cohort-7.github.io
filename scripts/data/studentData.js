@@ -12,7 +12,6 @@ const students = [
     frontEndCapstoneURL: "https://www.loom.com/share/627ef0633d214b248ff71ecfc73eff94",
     interests:"I am interested in full-stack development and how technology can help small-businesses grow and be successful. I thoroughly enjoy implementing UI/UX design on the client side, but believe there is a true art to making sure that data is clean and code is efficient on the server side",
     autobiography: "",
-    interests: "I am very interested in cyber security and defense aspects of technology",
     commonPhrases:"How can I break this, then make it better?",
     lookingFor:"A strong and connected team atmosphere where continued learning and growth is encouraged.",
     looking: true,
@@ -26,8 +25,13 @@ const students = [
     githubURL: "https://github.com/Nima-ShSh",
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "https://www.linkedin.com/in/nimashahabshahmir",
-    interests: "",
-    lookingFor: "",
+    frontEndCapstoneURL: "https://www.loom.com/share/1387a589e1774a5aaa81fed75c3c3dec",
+    interests: `Software Development and learning new technologies, frameworks, concepts, and languages are very fascinating to me. I am most interested in the Front-End Development and User Experience Design.
+    At NewForce, I have learned hands-on experiences on amazing technologies which allows me to create a website platform from scratch and input data in it! But also, connecting such platform to the right user or even taking it a few steps back - understanding what the user wants and which design/technologies suites them the best piques my interest.
+    Working with data and using it in real world applications is also an important and exciting field. We can have the greatest software application but without the correct and analyzed data, our application may not be the most useful! This is why I have applied and currently work as an Implementation Analyst, to learn more the process of data collection and implementation.
+    I like to see each software or web based app from the eyes of the user. How will they interact with it? How is it going to make their time spent with the app the most efficient/exciting? and most importantly, how is it solving the problem and is the solution future proof?`,
+    commonPhrases: `How can I create a feature or fix a bug using the knowledge that I have gained from NewForce? Once the application is running, I would try to take it a step further and make the code more efficient.`,
+    lookingFor: "A good team that not only values working together, but also respects one another and communicates clearly.",
     looking: true,
   },
   {
@@ -59,11 +63,11 @@ const students = [
     linkedInURL: "https://www.linkedin.com/in/jonahamoore",
     serverSideCapstoneURL: "https://www.loom.com/share/9ea863b50ea448b59892e0e65023e4f1",
     interests:
-      "",
+      "Software implementation in the healthcare field, pharmacy informatics, and anything sports or video game related.",
     commonPhrases:
-      '',
+      'There are so many ways to do this, but I only need one to work!',
     lookingFor:
-      "",
+      "A positive workplace culture and a mutual interest in learning and teaching.",
     looking: true,
     hired: false
   },
@@ -188,7 +192,8 @@ const students = [
     githubURL: "https://github.com/MelQuan95",
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "https://www.linkedin.com/in/melquan-green",
-    serverSideCapstoneURL: "",
+    serverSideCapstoneURL: "https://www.loom.com/share/5f94f4f7b27a48f9b8855ead45928dbf",
+    frontEndCapstoneURL: "https://www.loom.com/share/08ae64907cfe4401b1c01aed6428d027",
     interests:
       "I love doing things with computers and technology. Anything that surrounds a computer I'm usually game for. As far as code I love front-end, JavaScript, styling, and React. Also I enjoy sports! Basketball and Football are my favorite. ",
     commonPhrases:
