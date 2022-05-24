@@ -37,7 +37,7 @@ const students = [
   {
     firstName: "Cameron",
     lastName: "Resuta",
-    hired: false,
+    hired: true,
     resumeURL:
       "https://www.canva.com/design/DAEt8AFCAS4/b7FadzNO3_NFbXX-hwzwtQ/view?utm_content=DAEt8AFCAS4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/cresuta",
@@ -74,7 +74,7 @@ const students = [
   {
     firstName: "Brandi",
     lastName: "Dimitroff",
-    hired: false,
+    hired: true,
     resumeURL:
       "https://www.canva.com/design/DAEt7Ug_Un4/MuWXaooLvUlFhwy3VAfigA/view?utm_content=DAEt7Ug_Un4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/dimitroff2",
@@ -167,7 +167,7 @@ const students = [
   {
     firstName: "Andy",
     lastName: "Birt",
-    hired: false,
+    hired: true,
     resumeURL:
       "https://www.canva.com/design/DAEt-8cyUx0/MH4QIuC9uKILtHSXtVw_Rg/view?utm_content=DAEt-8cyUx0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/andy-birt",
@@ -241,7 +241,7 @@ const students = [
   {
     firstName: "Heaven",
     lastName: "Burdette",
-    hired: false,
+    hired: true,
     resumeURL:
       "https://www.canva.com/design/DAEuIlHMaoQ/ShZZMPYNonXH_nCmUVTGDg/view?utm_content=DAEuIlHMaoQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/heavenburdette1988",
