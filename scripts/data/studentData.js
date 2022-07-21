@@ -2,7 +2,7 @@ const students = [
   {
     firstName: "Jordan",
     lastName: "Twyman",
-    hired: false,
+    hired: true,
     resumeURL:
       "https://www.canva.com/design/DAEuCYV1xJ8/FF_hBmAFNluynx_IKKFIqg/view?utm_content=DAEuCYV1xJ8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/Jordan-Twyman",
@@ -89,7 +89,7 @@ const students = [
   {
     firstName: "Brandon",
     lastName: "Di Gregorio",
-    hired: false,
+    hired: true,
     resumeURL:
       "https://www.canva.com/design/DAEvWsO9LsI/VScO3brNFxRoM8bv_kNjKw/view?utm_content=DAEvWsO9LsI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/bdigregs",
@@ -108,7 +108,7 @@ const students = [
   {
     firstName: "Amanda",
     lastName: "Ball",
-    hired: false,
+    hired: true,
     resumeURL:
       "https://www.canva.com/design/DAEutr3iAIM/fJr-RcCHDaG-PxgJ9-5gcg/view?utm_content=DAEutr3iAIM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     githubURL: "https://github.com/helloamandaball",
