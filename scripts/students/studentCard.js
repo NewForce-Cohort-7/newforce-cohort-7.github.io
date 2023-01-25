@@ -46,7 +46,7 @@ export const buildStudentComponent = (studentObject, i) => {
             ? '  <div class="ribbon ribbon-top-left"><span>Hired</span></div>'
             : ""
         }
-        <img src="images/headshots/${studentObject.firstName.toLowerCase()}-serious-min-min.jpg" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
+        <img src="scripts/images/${studentObject.firstName.toLowerCase()}-serious.jpg" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
         <div class="card-body center-text">
         <h5 class="card-title">${studentObject.firstName} ${
     studentObject.lastName
@@ -67,9 +67,9 @@ export const buildStudentComponent = (studentObject, i) => {
           <button type="button" class="close close-button-container" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true" class="close-button"> &times;</span>
           </button>
-        <img src="images/headshots/${
+        <img src="scripts/images/${
           studentObject.firstName.toLowerCase()
-        }-funny-min-min.jpg" class="card-img-top modal-image" alt="Headshot of ${studentObject.firstName}">
+        }-funny.jpg" class="card-img-top modal-image" alt="Headshot of ${studentObject.firstName}">
         <h2 class="modal-title">Hi, I'm ${studentObject.firstName}!</h2>
         ${buildStudentInfoSection(studentObject)}
         <h4 class="video-heading">Front End Capstone</h4>
@@ -84,7 +84,7 @@ export const buildStudentComponent = (studentObject, i) => {
           <a target="_blank" href="${
             studentObject.githubURL
           }" class="logo github-logo">
-            <img src="images/icons/github-icon-gray.png" alt="github logo" />
+            <img src="scripts/images/github-logo.png" alt="github logo" />
           </a>
           <a class="btn btn-info resume-btn" target="_blank" href="${
             studentObject.resumeURL
@@ -92,7 +92,7 @@ export const buildStudentComponent = (studentObject, i) => {
           <a target="_blank" href="${
             studentObject.linkedInURL
           }" class="logo linkedin-logo">
-            <img src="images/icons/linkedin-icon-gray.png" alt="github logo" />
+            <img src="scripts/images/linkedin-logo.png" alt="github logo" />
           </a>
           </div>
         </div>

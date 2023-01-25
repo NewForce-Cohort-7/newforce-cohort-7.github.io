@@ -5,7 +5,7 @@
  /* Centers the content in an element vertically and horizontally */
 
  * {
-	font-family: 'Assistant', sans-serif;
+	font-family: 'Filson Pro', 'Poppins', sans-serif;
 	letter-spacing: 0.03em;
  }
 
@@ -41,7 +41,7 @@
  }
 
  .highlight {
-	 background-color:  #ffc859;
+	 background-color:  #ffc91f;
  }
 
  .section-title {
@@ -55,13 +55,13 @@
 
 /* Header styles */
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
 	header{
 		background-size: 30em 10em;
 		background-repeat: repeat-x;
 	}
 
-}
+} */
 
 @media only screen and (max-width: 991px) {
 	header {
@@ -72,8 +72,8 @@
 
 
 header {
-	background-image: url('../images/NewForce-GraphicDesign-Pattern-06.png');
-	background-color:#433e47;
+	background-image: url('/scripts/images/background.png');
+	background-color:#166b69;
 	background-attachment: fixed;
 	background-position: center bottom;
 
@@ -88,7 +88,7 @@ header {
  }
 
  .header-content h1 {
-	 color: white;
+	 color: #f4ebde;
 	 font-size: 4em;
  }
 
@@ -113,7 +113,7 @@ header {
   z-index: -1;
   content: '';
   display: block;
-  border: 5px solid #2980b9;
+  border: 5px solid #166b69;
 }
 
 .ribbon span {
@@ -121,9 +121,9 @@ header {
 	display: block;
 	width: 225px;
 	padding: 15px 0;
-	background-color: #2f45a8;
+	background-color: #166b69;
 	box-shadow: 0 5px 10px rgba(0,0,0,.1);
-	color: #fff;
+	color: #f4ebde;
 	font: 700 18px/1 'Lato', sans-serif;
 	text-shadow: 0 1px 1px rgba(0,0,0,.2);
 	text-align: center;
@@ -168,7 +168,7 @@ header {
 	 width: 100%;
 	 border: none;
 	 background-color: inherit;
-	 border: 2px solid #ffc859;
+	 border: 2px solid #ffc91f;
 	 border-radius: 0.3em;
 	 font-size: 1.1em;
 	 margin-top: 1em;
@@ -177,9 +177,10 @@ header {
 
 
  .student-card button:hover {
-	 background-color: #ffc859;
+	 background-color: #ffc91f;
 	 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
  }
+
  .student-info{
 	 line-height: 1em;
  }
@@ -198,7 +199,7 @@ header {
 
  .student-modal h2 {
 	padding: 0.5em;
-	background-color: #ffc859;
+	background-color: #ffc91f;
  }
 
  .close-button-container{
@@ -206,14 +207,14 @@ header {
 	 text-align: center;
 	 width: 1em;
 	 border-radius: 50%;
-	 background-color: red !important;
+	 background-color: #d74423 !important;
 	 margin-bottom: 1em;
 	 margin-top: 0;
 	 padding: 0;
  }
 
  .close-button {
-	 color: white;
+	 color: #f4ebde;
 	 border-radius: 50%;
  }
 
@@ -227,7 +228,7 @@ header {
 
  .student-modal-footer h4 {
 	 padding: 0.5em;
-	 background-color: #ffc859;
+	 background-color: #ffc91f;
  }
 .social-icons img{
 	 height: 2.5em;
@@ -239,6 +240,12 @@ header {
 	transform: scale(1.02);
 	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 
+ }
+
+ .resume-btn {
+	background-color: #166b69;
+	border-style: none;
+	color: #f4ebde
  }
 
  .social-icons .resume-btn {
@@ -276,8 +283,8 @@ header {
 /* Footer */
 
 footer {
-	background-color: #433e47;
-	color: white;
+	background-color: #444147;
+	color: #f4ebde;
 	height: 30vh;
 	width: 100%;
 	padding: 3em;
@@ -288,11 +295,11 @@ footer p {
 }
 
 footer a {
-	color: white;
+	color: #f4ebde;
 }
 
 footer a:hover {
-	color: gray;
+	color: #444147;
 }
 
 

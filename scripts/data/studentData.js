@@ -1,282 +1,263 @@
 const students = [
   {
-    firstName: "Jordan",
-    lastName: "Twyman",
-    hired: true,
+    firstName: "Shane",
+    lastName: "Butler",
+    hired: false,
     resumeURL:
-      "https://www.canva.com/design/DAEuCYV1xJ8/FF_hBmAFNluynx_IKKFIqg/view?utm_content=DAEuCYV1xJ8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/Jordan-Twyman",
-    photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/jordan-twyman",
-    serverSideCapstoneURL: "https://www.loom.com/share/f388f03a310a44a7b07cbeceae84211d",
-    frontEndCapstoneURL: "https://www.loom.com/share/627ef0633d214b248ff71ecfc73eff94",
-    interests:"I am interested in full-stack development and how technology can help small-businesses grow and be successful. I thoroughly enjoy implementing UI/UX design on the client side, but believe there is a true art to making sure that data is clean and code is efficient on the server side",
+      "",
+    githubURL: "https://github.com/shanedbutler",
+    photoURL: "images/headshots/Shane.jpg",
+    linkedInURL: "https://www.linkedin.com/in/shanedbutler/",
+    serverSideCapstoneURL: "https://www.loom.com/share/3d06a0a110cf495ea404cc1eabec8ea5",
+    frontEndCapstoneURL: "https://www.loom.com/share/eb898482ea8e484dad6c450e59494dbe",
+    interests:"As a developer, I'm interested in civic tech initiatives, collaborating on open source projects, while learning and improving my skills and knowledge of new technologies. I am passionate about using my abilities to create innovative solutions that can make a positive impact. When I'm not coding I like to cook, bird watch, work on my photography, and play video games with friends.",
     autobiography: "",
-    commonPhrases:"How can I break this, then make it better?",
-    lookingFor:"A strong and connected team atmosphere where continued learning and growth is encouraged.",
+    commonPhrases:"I can figure this out!",
+    lookingFor:" I am seeking a diverse and inclusive environment where I can communicate effectively with my colleagues, be respected for my unique perspective and skills, while having opportunities to innovate and produce top-level work. A supportive and respectful work culture is crucial for me to feel valued and be able to do my best work.",
     looking: true,
   },
   {
-    firstName: "Nima",
-    lastName: "Shahab Shahmir",
-    hired: true,
+    firstName: "Tiffany",
+    lastName: "Baker",
+    hired: false,
     resumeURL:
-      "https://www.canva.com/design/DAE34Away7M/pYBmUKd5CYlgY_MWg4yIEQ/view?utm_content=DAE34Away7M&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/Nima-ShSh",
+      "",
+    githubURL: "https://github.com/TiffersAnn",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/nimashahabshahmir",
-    frontEndCapstoneURL: "https://www.loom.com/share/1387a589e1774a5aaa81fed75c3c3dec",
-    interests: `Software Development and learning new technologies, frameworks, concepts, and languages are very fascinating to me. I am most interested in the Front-End Development and User Experience Design.
-    At NewForce, I have learned hands-on experiences on amazing technologies which allows me to create a website platform from scratch and input data in it! But also, connecting such platform to the right user or even taking it a few steps back - understanding what the user wants and which design/technologies suites them the best piques my interest.
-    Working with data and using it in real world applications is also an important and exciting field. We can have the greatest software application but without the correct and analyzed data, our application may not be the most useful! This is why I have applied and currently work as an Implementation Analyst, to learn more the process of data collection and implementation.
-    I like to see each software or web based app from the eyes of the user. How will they interact with it? How is it going to make their time spent with the app the most efficient/exciting? and most importantly, how is it solving the problem and is the solution future proof?`,
-    commonPhrases: `How can I create a feature or fix a bug using the knowledge that I have gained from NewForce? Once the application is running, I would try to take it a step further and make the code more efficient.`,
-    lookingFor: "A good team that not only values working together, but also respects one another and communicates clearly.",
+    linkedInURL: "https://www.linkedin.com/in/tiffany-baker1023/",
+    frontEndCapstoneURL: "https://www.loom.com/share/365d70bdc931439fb4fc37d3084860b1",
+    serverSideCapstoneURL: "https://www.loom.com/share/7ceaa0efe13e47a7b4acdf4ad6cb9799",
+    interests: `I'm interested in front-end HTML/CSS.  I like the instant page adjustments and making the app look exactly how I want it to look.  I also really liked SQL.  It's fun to make the connections and utilize an ERD.  Outside of coding I'm interested in travel and cooking... and really like combining the 2 (cooking classes in travel destinations).`,
+    commonPhrases: `Thank goodness it was just a missing comma... my code works!`,
+    lookingFor: "I would like a team that is supportive and willing to mentor at first.  I'm excited to learn new languages and ready to jump right in with the team.",
     looking: true,
   },
   {
-    firstName: "Cameron",
-    lastName: "Resuta",
-    hired: true,
+    firstName: "Cara",
+    lastName: "Netzer",
+    hired: false,
     resumeURL:
-      "https://www.canva.com/design/DAEt8AFCAS4/b7FadzNO3_NFbXX-hwzwtQ/view?utm_content=DAEt8AFCAS4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/cresuta",
+      "",
+    githubURL: "https://github.com/CaraNetzer",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/cameron-resuta/",
-    serverSideCapstoneURL: "https://www.loom.com/share/36218006e5ab4d8d89627f0a46b0783e",
-    frontEndCapstoneURL: "https://www.loom.com/share/8fc80b0fdd57497b800096a96950f890",
+    linkedInURL: "https://www.linkedin.com/in/caranetzer/",
+    serverSideCapstoneURL: "https://www.loom.com/share/261d542729204c51b674766a036a45cc",
+    frontEndCapstoneURL: "https://www.loom.com/share/0fe42385522f4f13b9c2e9f640016f55",
     interests:
-      "All sides of full-stack development, but I have always leaned toward front-end development and design!",
+      "QA and game development",
     commonPhrases:
-      '"WOW!” Every day I’m reminded that I chose to pursue the right career for me and it amazes me how much is involved in bringing an idea or concept to life through development.',
+      '',
     lookingFor:
-      "A positive/encouraging work environment, career growth opportunities, and a great team to work with daily.",
+      "Getting to try lots of new things and a healthy workplace environment.",
     looking: true,
   },
   {
-    firstName: "Jonah",
-    lastName: "Moore",
+    firstName: "Toni",
+    lastName: "Baker",
     resumeURL:
-      "https://www.canva.com/design/DAEt7Ug_Un4/MuWXaooLvUlFhwy3VAfigA/view?utm_content=DAEt7Ug_Un4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/jonahamoore",
+      "",
+    githubURL: "https://github.com/ToniJBaker",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/jonahamoore",
-    serverSideCapstoneURL: "https://www.loom.com/share/9ea863b50ea448b59892e0e65023e4f1",
+    linkedInURL: "https://www.linkedin.com/in/toni-baker/",
+    frontEndCapstoneURL: "https://www.loom.com/share/76472ec554ad40248fabb9a8dc1c59a5",
+    serverSideCapstoneURL: "https://www.loom.com/share/1e04739050164225bf88b039270bf8a0",
     interests:
-      "Software implementation in the healthcare field, pharmacy informatics, and anything sports or video game related.",
+      "I have a lot of interests and they keep me passionate about life.  Hiking in the remote locations of the Olympic Mountains has been a high point of adventure; I love the inspiring views, the quiet moments for reflection and the physical challenge.  There are so many more journeys I want to have.",
     commonPhrases:
-      'There are so many ways to do this, but I only need one to work!',
+      '"I wonder...." Coding keeps presenting new challenges and I find myself wondering , can I do this or that.  Is this possibl?  So far the possibilities seem endless.',
     lookingFor:
-      "A positive workplace culture and a mutual interest in learning and teaching.",
+      "I want to work with a team that functions with autonomously but also with possitive collaboration.  I really enjoy a structured environment that is open to innovation and growth.  I know how to work hard, but I don't want to simply work, I want to work at making a difference.  I look forward to learning more about security measures ways to make my code more reusabel and efficient.",
     looking: true,
     hired: false
   },
   {
-    firstName: "Brandi",
-    lastName: "Dimitroff",
-    hired: true,
+    firstName: "Natalie",
+    lastName: "Thiele",
+    hired: false,
     resumeURL:
-      "https://www.canva.com/design/DAEt7Ug_Un4/MuWXaooLvUlFhwy3VAfigA/view?utm_content=DAEt7Ug_Un4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/dimitroff2",
+      "",
+    githubURL: "https://github.com/nthi",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/bcdimitroff ",
-    interests: "Books, painting, JavaScript, C#",
-    commonPhrases:"Syntax matters, I know this its staring me in the face",
-    lookingFor:"A place to learn and grow",
+    linkedInURL: "https://www.linkedin.com/in/natalie-thiele/",
+    interests: "Professionally, I’m interested in coding because there’s always something new to learn, and there is infinite variety in the kind of work programmers can do. In my non-tech life, I’m interested in speculative fiction, baking, and yoga. I love soup and ice cream. I watch anime and Columbo on weekends.",
+    commonPhrases:"I don’t really have an internal monologue, so when I’m coding I am most often really focused on solving the problem in front of me.",
+    lookingFor:"I would love to work with a group committed to careful listening, clear communication, and kind evaluation and feedback. I value a workplace culture that is friendly, courteous, and respectful of boundaries.",
     looking: true,
 
+  },
+  {
+    firstName: "Allison",
+    lastName: "Carte",
+    hired: false,
+    resumeURL:
+      "",
+    githubURL: "https://github.com/AllisonCarte",
+    photoURL: "images/headshots/Lindsey.jpg",
+    linkedInURL: "https://www.linkedin.com/in/allison-carte/",
+    serverSideCapstoneURL: "https://www.loom.com/share/27f9d17209024db690561f43649610b0",
+    frontEndCapstoneURL: "https://www.loom.com/share/6d080a5c5fea4c8ebe492ab89d829e20",
+    interests:
+      "Continuous learning, contributing to open source projects, and caring for my menagerie. ",
+    commonPhrases:
+      "I need to comment this code. I understand it because I wrote it, but it won't be as easy for someone else to decipher.",
+    lookingFor:
+      "A positive and supportive workplace environment that fosters professional growth and encourages collaboration. I believe that working on challenging projects is crucial for personal and professional development, and I value the opportunity to learn and grow within a supportive and inclusive culture. I also appreciate the chance to contribute to the success of the team and company and to make a meaningful impact through my work.",
+    looking: true,
+  },
+  {
+    firstName: "Julie",
+    lastName: "Adams",
+    hired: false,
+    resumeURL:
+      "",
+    githubURL: "https://github.com/julslt34",
+    photoURL: "images/headshots/Lindsey.jpg",
+    linkedInURL: "https://www.linkedin.com/in/julie-a-adams/",
+    frontEndCapstoneURL: "https://www.loom.com/share/e2c2547358fa427781ece261d35ea063",
+    serverSideCapstoneURL: "https://www.loom.com/share/e04d1e8c625a4a2899349046ca83d524",
+    interests:
+      "Creating things like art, furniture, or pretty websites that do really interesting or useful things.  I also love travel, creative writing, and of course puppies.",
+      autobiography: "",
+    commonPhrases:
+      "Where have I done this before - or where can I find out how to do this?",
+    lookingFor:
+      "I am looking for a great team environment.  I am also looking for a place where I have opportunities to continue to learn and develop my coding skills.",
+    looking: true
+  },
+  {
+    firstName: "Tabatha",
+    lastName: "Slater",
+    hired: true,
+    resumeURL:
+      "",
+    githubURL: "",
+    photoURL: "images/headshots/Lindsey.jpg",
+    linkedInURL: "",
+    serverSideCapstoneURL: "",
+    frontEndCapstoneURL: "",
+    interests:
+      "",
+    commonPhrases:
+      '',
+    lookingFor:
+      "",
+    looking: true,
+  },
+  {
+    firstName: "Jeannette",
+    lastName: "Geib",
+    hired: true,
+    resumeURL:
+      "",
+    githubURL: "",
+    photoURL: "images/headshots/Lindsey.jpg",
+    linkedInURL: "",
+    serverSideCapstoneURL: "",
+    frontEndCapstoneURL: "",
+    interests:
+      "",
+    commonPhrases:
+      "",
+    lookingFor:
+      "",
+    looking: true,
+  },
+  {
+    firstName: "Jacob",
+    lastName: "Jude",
+    hired: false,
+    resumeURL:
+      "",
+    githubURL: "",
+    photoURL: "images/headshots/Lindsey.jpg",
+    linkedInURL: "",
+    serverSideCapstoneURL: "",
+    frontEndCapstoneURL: "",
+    interests:
+      "",
+    commonPhrases:
+      "",
+    lookingFor:
+      "",
+    looking: true,
   },
   {
     firstName: "Brandon",
-    lastName: "Di Gregorio",
-    hired: true,
+    lastName: "Gray",
+    hired: false,
     resumeURL:
-      "https://www.canva.com/design/DAEvWsO9LsI/VScO3brNFxRoM8bv_kNjKw/view?utm_content=DAEvWsO9LsI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/bdigregs",
+      "",
+    githubURL: "",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/brandon-di-greg",
-    serverSideCapstoneURL: "https://www.loom.com/share/8ef392ccbd124216917b7b9a98e6d706",
-    frontEndCapstoneURL: "https://www.loom.com/share/bdb4c86522c54ec89e42d1af95757037",
-    interests:
-      "Stringed instruments, good books, fun games, bad movies, and full-stack development",
-    commonPhrases:
-      '',
-    lookingFor:
-      "I want to be part of a communicative team, learn new coding languages, and continue learning the ones I know! I'd also like the flexibility of a remote opportunity.",
-    looking: true,
-  },
-  {
-    firstName: "Amanda",
-    lastName: "Ball",
-    hired: true,
-    resumeURL:
-      "https://www.canva.com/design/DAEutr3iAIM/fJr-RcCHDaG-PxgJ9-5gcg/view?utm_content=DAEutr3iAIM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/helloamandaball",
-    photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/helloamandaball",
+    linkedInURL: "",
     serverSideCapstoneURL: "",
+    frontEndCapstoneURL: "",
     interests:
-      "I am a creative person by nature, which has led me to not only a love of design, but also using that creativeness in problem solving on a daily basis. Since software development is about solving various types of puzzles, it genuinely appeals to the analytical side of my brain. I like the idea of parallels between the systematic approach of coding and the flexibility of creating something visually appealing.",
-      autobiography: "",
+      "",
     commonPhrases:
-      "What is the overall picture I'm trying to achieve? I think about who will be using the app, how each aspects relates to either an individual obstacle or a collective problem.",
+      "",
     lookingFor:
-      "I would like to find a place where I can build upon my skills and find a satisfying career that is both fulfilling and stable.",
+      "",
     looking: true,
-    serverSideCapstoneURL: "https://www.loom.com/share/f0a7eca005364330a705246af0bbd3b3",
-    frontEndCapstoneURL: "https://www.loom.com/share/8911411656464eb9af8b8a302ff7c98a"
   },
   {
-    firstName: "Charles",
-    lastName: "Griffith",
+    firstName: "Robert",
+    lastName: "Brunner",
     hired: false,
     resumeURL:
-      "https://www.canva.com/design/DAEuvtqSjxQ/h9NYfuEy-H0qCfG2ve1U2g/view?utm_content=DAEuvtqSjxQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/cbgriffith",
+      "",
+    githubURL: "",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/charlesbgriffith/",
-    serverSideCapstoneURL: "https://www.loom.com/share/2b7dbde1469d462ba63338e41f9fef92",
-    frontEndCapstoneURL: "https://www.loom.com/share/72a4f2c0127a4b2db0e9c7b7b8215774",
-    interests:
-      "Watching and attending sporting events and being around friends and family.",
-    commonPhrases:
-      'Syntax matters.',
-    lookingFor:
-      "A supportive team with opportunities to grow as a developer.",
-    looking: true,
-  },
-  {
-    firstName: "Nicholas",
-    lastName: "Perry",
-    hired: false,
-    resumeURL:
-      "https://www.canva.com/design/DAEvKUCFwK0/vQa3DIxs-CPycqZxZ7NhIA/view?utm_content=DAEvKUCFwK0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/nicholasvperry",
-    photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/nicholasvperry",
-    serverSideCapstoneURL: "https://www.loom.com/share/4e8a96201c19419cac785b2e463cd914",
-    frontEndCapstoneURL: "https://www.loom.com/share/13c11485b2894fdeaa7bad841a6ed771",
-    interests:
-      "I'm interested in full stack development. I love making a beautiful app that is feature packed and has good UI and UX! I have used many apps throughout my career and some of them really helped my job to be easier, and some just added frustration to my job. I want to build things that help make the job easier for those who use what I build. I am also interested in becoming a professional disc golfer as a side job.",
-    commonPhrases:
-      "I'm one fat old lazy coder! (Which I wear as a badge of honor!)",
-    lookingFor:
-      "I want to work with a good team that wants to use their skills to make a positive impact on others.",
-    looking: true,
-  },
-  {
-    firstName: "Andy",
-    lastName: "Birt",
-    hired: true,
-    resumeURL:
-      "https://www.canva.com/design/DAEt-8cyUx0/MH4QIuC9uKILtHSXtVw_Rg/view?utm_content=DAEt-8cyUx0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/andy-birt",
-    photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/andrew-birt/",
-    serverSideCapstoneURL: "https://www.loom.com/share/7ab7fab2fdf44555b51b0727a3f5ed63",
-    interests:
-      "On the back end is where I feel like I have the most interest. I really like learning languages like C# and .NET but have really become interested in SQL. I do enjoy working on the front end too. I particularly enjoy JavaScript or React. React has a lot of tools that I find interesting such as hooks.",
-    commonPhrases:
-      'There must be a way...',
-    lookingFor:
-      "Learning and growth opportunities, collaborative and challenging teams driven to succeed, work/life balance, flexibility (remote)",
-    looking: true,
-    frontEndCapstoneURL: "https://www.loom.com/share/8d25114ff90f4f979cfe8250741f98d8"
-  },
-  {
-    firstName: "MelQuan",
-    lastName: "Green",
-    hired: false,
-    resumeURL:
-      "https://www.canva.com/design/DAEuvN8J5F4/X7ihVYbahhNrpf7TSzXyuw/view?utm_content=DAEuvN8J5F4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/MelQuan95",
-    photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/melquan-green",
-    serverSideCapstoneURL: "https://www.loom.com/share/5f94f4f7b27a48f9b8855ead45928dbf",
-    frontEndCapstoneURL: "https://www.loom.com/share/08ae64907cfe4401b1c01aed6428d027",
-    interests:
-      "I love doing things with computers and technology. Anything that surrounds a computer I'm usually game for. As far as code I love front-end, JavaScript, styling, and React. Also I enjoy sports! Basketball and Football are my favorite. ",
-    commonPhrases:
-      'Syntax matters and how am I going to break this',
-    lookingFor:
-      "A good team with a chance to grow and learn as much as possible!",
-    looking: true,
-  },
-  {
-    firstName: "Gary",
-    lastName: "Clayton",
-    hired: true,
-    resumeURL:
-      "https://www.canva.com/design/DAEvPay8zis/1Wdjpm0PsZ_Lv85cAyFA9w/view?utm_content=DAEvPay8zis&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/garyclayton02",
-    photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/gary-clayton-55a835181/",
+    linkedInURL: "",
     serverSideCapstoneURL: "",
+    frontEndCapstoneURL: "",
     interests:
       "",
     commonPhrases:
-      '',
+      "",
     lookingFor:
       "",
     looking: true,
   },
   {
-    firstName: "Steven",
-    lastName: "Powers",
-    hired: true,
-    resumeURL:
-      "https://www.canva.com/design/DAEt-hS7qTY/UmhgdbowQB9BpQq_xFz17g/view?utm_content=DAEt-hS7qTY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelinkk",
-    githubURL: "https://github.com/ded-possum",
-    photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/steve-powers",
-    serverSideCapstoneURL: "",
-    interests:
-      "",
-    commonPhrases:
-      '',
-    lookingFor:
-      "",
-    looking: true,
-  },
-  {
-    firstName: "Heaven",
-    lastName: "Burdette",
-    hired: true,
-    resumeURL:
-      "https://www.canva.com/design/DAEuIlHMaoQ/ShZZMPYNonXH_nCmUVTGDg/view?utm_content=DAEuIlHMaoQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/heavenburdette1988",
-    photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/heavenlyburdette",
-    serverSideCapstoneURL: "https://www.loom.com/share/28112bd81d4c4e40a95c45a4f17720de",
-    frontEndCapstoneURL: "https://www.loom.com/share/c3132379e03c42eb9d090060f9dfdf6d",
-    interests:
-      "I love to run, craft, and travel but I have found that software development is a new field that I am excited to explore. I am ready to put my skills that I have attained at NewForce towards a new career and continue learning all I can about software development. ",
-    commonPhrases:
-      'I am sure I say quite a few things when I am coding, but more often than not I find myself giggling. This occurs when I find a solution to a problem because I am excited about how I figured it out, but also just the feeling of accomplishment. In coding, this feeling never gets old and I always look forward to it. ',
-    lookingFor:
-      "I am excited to find a job where I am constantly learning new concepts and improving my current skills, while also working within a great team.  ",
-    looking: true,
-  },
-  {
-    firstName: "Aki",
-    lastName: "Endo",
+    firstName: "Luke",
+    lastName: "Rapp",
     hired: false,
     resumeURL:
-      "https://www.canva.com/design/DAE-3E-wOD8/1x7ObbHaMuHX0LJubeUNGA/view?utm_content=DAE-3E-wOD8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    githubURL: "https://github.com/mtgoat",
+      "",
+    githubURL: "",
     photoURL: "images/headshots/Lindsey.jpg",
-    linkedInURL: "https://www.linkedin.com/in/akiko-endo/",
-    serverSideCapstoneURL: "https://www.youtube.com/watch?v=c7a0HabwyIM",
-    frontEndCapstoneURL: "https://www.youtube.com/watch?v=6g3CXvYzU60",
+    linkedInURL: "",
+    serverSideCapstoneURL: "",
+    frontEndCapstoneURL: "",
     interests:
-      "I really enjoy learning the server side with C#, SQL, and ADO.Net.  It is amazing to learn each step of information flow and how to manipulate data.  I also enjoy learning React and JavaScript on the client side.  It is intriguing to figure out how this huge puzzle works through trial and error.For non-coding, I enjoy practicing Origami, reading, and cooking. ",
+      "",
     commonPhrases:
-      'Ohnnn no, I need a rubber duckie.  ',
+      "",
     lookingFor:
-      "I'd like contribute my skills to help people in a good team enviroment. ",
+      "",
     looking: true,
   },
-
+  {
+    firstName: "Trey",
+    lastName: "Chambers",
+    hired: false,
+    resumeURL:
+      "",
+    githubURL: "",
+    photoURL: "images/headshots/Lindsey.jpg",
+    linkedInURL: "",
+    serverSideCapstoneURL: "",
+    frontEndCapstoneURL: "",
+    interests:
+      "",
+    commonPhrases:
+      "",
+    lookingFor:
+      "",
+    looking: true,
+  }
+ 
 
 
 ];
