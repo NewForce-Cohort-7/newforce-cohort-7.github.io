@@ -171,14 +171,14 @@ const students = [
     githubURL: "",
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "",
-    serverSideCapstoneURL: "",
-    frontEndCapstoneURL: "",
+    serverSideCapstoneURL: "https://www.loom.com/share/b9be2ee26fbe4a01bdb4b75d6d89540d",
+    frontEndCapstoneURL: "https://www.loom.com/share/b5382388057a4563806544ef305a9e2e",
     interests:
-      "",
+      "I would say I am most interested in working with data and databases. Using SQL and back-end languages has been my favorite part of the NewForce program! ",
     commonPhrases:
-      "",
+      "Does everything work? Okay, what next?",
     lookingFor:
-      "",
+      "I am looking for opportunities to grow as a programmer and create interesting projects.",
     looking: true,
   },
   {
@@ -209,14 +209,14 @@ const students = [
     githubURL: "",
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "",
-    serverSideCapstoneURL: "",
-    frontEndCapstoneURL: "",
+    serverSideCapstoneURL: "https://www.loom.com/share/6dd46234ec9e41f89be515aca8fd4194",
+    frontEndCapstoneURL: "https://www.loom.com/share/aa4f7f6d6ce845e39d1dca4d8700a8a2",
     interests:
       "",
     commonPhrases:
-      "",
+      "'Someone else did it so there must be a way!'  'It's possible; I just haven't figured it yet.' 'Dadgum!' 'Bother!'  #$%@!!!! @#$@!!!! @#$@!!!!'",
     lookingFor:
-      "",
+      "I would like the opportunity to keep learning and constantly be challenged.  One of the main reasons for getting into this is my desire to keep branching out.  I would also like to work with people who are team oriented. ",
     looking: true,
   },
   {
@@ -228,14 +228,14 @@ const students = [
     githubURL: "",
     photoURL: "images/headshots/Lindsey.jpg",
     linkedInURL: "",
-    serverSideCapstoneURL: "",
-    frontEndCapstoneURL: "",
+    serverSideCapstoneURL: "https://www.loom.com/share/5dfadef4aaa54098997a8492cfc91a5c",
+    frontEndCapstoneURL: "https://www.loom.com/share/5cc7b5a0232744a4aba76cba3580b8b5",
     interests:
-      "",
+      "SQL, database management, C#.. I like to learn and interpret different sports statistics.",
     commonPhrases:
-      "",
+      "Figuring out or troubleshooting a problem can be difficult at times, but it is always rewarding to see the result of your work.",
     lookingFor:
-      "",
+      "I want to know what is expected of me, what role would I play? I want to continue to learn about SQL and other database management tools. ",
     looking: true,
   },
   {
