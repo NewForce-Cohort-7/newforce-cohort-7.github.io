@@ -46,7 +46,7 @@ export const buildStudentComponent = (studentObject, i) => {
             ? '  <div class="ribbon ribbon-top-left"><span>Hired</span></div>'
             : ""
         }
-        <img src="images/${studentObject.firstName.toLowerCase()}-serious.jpg" onerror="this.src='images/${studentObject.firstName.toLowerCase()}-serious.jpeg'" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
+        <img src="images/${studentObject.firstName}-serious.jpg" onerror="this.src='images/${studentObject.firstName}-serious.jpeg'" class="card-img-top" alt="Headshot of ${studentObject.firstName}">
         <div class="card-body center-text">
         <h5 class="card-title">${studentObject.firstName} ${
     studentObject.lastName
@@ -68,8 +68,8 @@ export const buildStudentComponent = (studentObject, i) => {
             <span aria-hidden="true" class="close-button"> &times;</span>
           </button>
         <img src="images/${
-          studentObject.firstName.toLowerCase()
-        }-funny.jpg" onerror="this.src='images/${studentObject.firstName.toLowerCase()}-serious.jpg'" class="card-img-top modal-image" alt="Headshot of ${studentObject.firstName}">
+          studentObject.firstName
+        }-funny.jpg" onerror="this.src='images/${studentObject.firstName}-serious.jpg'" class="card-img-top modal-image" alt="Headshot of ${studentObject.firstName}">
         <h2 class="modal-title">Hi, I'm ${studentObject.firstName}!</h2>
         ${buildStudentInfoSection(studentObject)}
         <h4 class="video-heading">Front End Capstone</h4>
