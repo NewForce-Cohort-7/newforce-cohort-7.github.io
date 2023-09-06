@@ -84,7 +84,7 @@ export const buildStudentComponent = (studentObject, i) => {
           <a target="_blank" href="${
             studentObject.githubURL
           }" class="logo github-logo">
-            <img src="scripts/images/github-logo.png" alt="github logo" />
+            <img src="images/GitHubLogo.png" alt="github logo" />
           </a>
           <a class="btn btn-info resume-btn" target="_blank" href="${
             studentObject.resumeURL
@@ -92,7 +92,7 @@ export const buildStudentComponent = (studentObject, i) => {
           <a target="_blank" href="${
             studentObject.linkedInURL
           }" class="logo linkedin-logo">
-            <img src="scripts/images/linkedin-logo.png" alt="github logo" />
+            <img src="images/LinkedInLogo.png" alt="linkedin logo" />
           </a>
           </div>
         </div>
