@@ -362,4 +362,6 @@ const students = [
 export const getStudents = () =>
   students
     .filter((student) => student.looking)
-    .sort((b, a) => a.lastName.localeCompare(b.lastName));
+ 
+
+  
