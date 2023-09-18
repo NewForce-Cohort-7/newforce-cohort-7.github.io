@@ -257,7 +257,7 @@ const students = [
   {
     firstName: "Harrison",
     lastName: "Davidson",
-    hired: false,
+    hired: true,
     resumeURL:
       "https://drive.google.com/open?id=1FiOHdWXMT47t2GIEjpTQtV2fZDAxA1s-",
     githubURL: "https://github.com/HarrisonDavidson",
