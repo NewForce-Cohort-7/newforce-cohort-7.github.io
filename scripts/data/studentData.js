@@ -58,7 +58,7 @@ const students = [
       "https://drive.google.com/open?id=1DYg8taNx9EcRfhQ64E6xwnFbITFIk2bZ",
     githubURL: "https://github.com/JamesB0907",
     photoURL: "",
-    linkedInURL: "www.linkedin.com/in/ jameskebrooks",
+    linkedInURL: "www.linkedin.com/in/jameskebrooks",
     serverSideCapstoneURL: "https://www.loom.com/share/e8e5540329c64fc3902fb8d726057b57?sid=a0c1c9c4-d840-4143-b303-4db633b600b0",
     frontEndCapstoneURL: "https://www.loom.com/share/2e55c4dddc054ac1870584088c8f14b8?sid=f7c570ba-57db-41b3-af25-ad6015fa4b90",
     interests: "I really enjoy and want explore more strongly-typed languages like C#, but I would also love to learn as many programming languages as possible (particularly Python, Java, C++ to start). I especially like the idea of working cloud-based services, databases or working for an ISP.  I'm also interested in software and would like to soon hone my skills enough to be able to develop software or program hardware. I enjoy tinkering with computer parts and testing out different builds. I love playing video games (especially old school adventure games and RPGs) and tabletop games, but I also love to read books. I also love being a father and being goofy with my two kids! I'm a avid homebrewer and craft beer enthusiast.",
